@@ -27,3 +27,5 @@ Final Project for Application Development
 ### - then run this sa cmd "composer global require laravel/installer"
 ### - then git clone na sa gusto niyong folder
 ### - pag may errors, chat nalang tenks
+
+test push nic
