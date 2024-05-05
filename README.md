@@ -26,4 +26,10 @@ Final Project for Application Development
 ### - tapos tanggalin niyo yung ";" sa php.ini
 ### - then run this sa cmd "composer global require laravel/installer"
 ### - then git clone na sa gusto niyong folder
+### - pag di gumana sa inyo, follow the following steps pag di niyo pa nagagawa
+#### - Make sure na nasa root folder kayo e.g., folder/folder/folder/mathquest
+#### - Before doing the steps below, make sure na naka on yung xampp niyo, yung Apache at MySQL
+#### - Basta dapat mathquest yung dulong folder sa cmd niyo
+#### - run "php artisan migrate"
+#### - run "php artisan serve"
 ### - pag may errors, chat nalang tenks
