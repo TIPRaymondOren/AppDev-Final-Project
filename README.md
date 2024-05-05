@@ -33,3 +33,5 @@ Final Project for Application Development
 #### - run "php artisan migrate"
 #### - run "php artisan serve"
 ### - pag may errors, chat nalang tenks
+
+test push nic
