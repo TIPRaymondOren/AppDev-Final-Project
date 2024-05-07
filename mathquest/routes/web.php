@@ -13,3 +13,7 @@ Route::get('/land', function () {
 Route::get('/lesson', function () {
     return view('mainapp/lesson');
 });
+
+Route::get('/category', function () {
+    return view('mainapp/category');
+});
