@@ -14,6 +14,10 @@ Route::get('/lesson', function () {
     return view('mainapp/lesson');
 });
 
+Route::get('/leaderboards', function () {
+    return view('mainapp/leaderboards');
+});
+
 Route::get('/category', function () {
     return view('mainapp/category');
 });
