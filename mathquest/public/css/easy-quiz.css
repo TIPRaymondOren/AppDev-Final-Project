@@ -95,14 +95,10 @@ body {
     align-items: center;
 }
 
-iframe {
-    margin-bottom: 3%;
-}
 .text-btn {
     margin-right: 2%;
 }
 
-.multiply-table {
-    width: 80%;
-    margin: auto;
+label {
+    margin-right: 30px;
 }
