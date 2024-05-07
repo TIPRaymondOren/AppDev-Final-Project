@@ -18,17 +18,14 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
-        <style>
-            body {
-                background-image: url({{ asset('images/mainbg.png')}})
-            }
-        </style>
     </head>
-    <body class="font-sans antialiased">
+    <body class="land-bg">
         <div class="main-container">
-            <div class="title">Math Quest</div>
-            <div class="btn btn-success" id="start-btn">
-                <a href="{{ url('/lesson') }}">Start your quest now</a>
+            <div class="title">
+                <img src="{{ asset('images/mqlogo.png') }}" alt="" srcset="" class="title-image">
+            </div>
+            <div class="btn" id="start-btn">
+                <a href="{{ url('/lesson') }}" class="start-quest">Start your quest now</a>
             </div>
             <div class="description">
                 <div class="desc-cont learn-container">
