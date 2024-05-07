@@ -23,7 +23,7 @@
         <div class="main-container">
             <div class="title">Math Quest</div>
             <div class="btn btn-success" id="start-btn">
-                <a href="#">Start your quest now</a>
+                <a href="{{ url('/lesson') }}">Start your quest now</a>
             </div>
             <div class="description">
                 <div class="desc-cont learn-container">
