@@ -9,3 +9,7 @@ Route::get('/', function () {
 Route::get('/land', function () {
     return view('mainapp/landing');
 });
+
+Route::get('/lesson', function () {
+    return view('mainapp/lesson');
+});
