@@ -32,7 +32,7 @@
                 <div class="nav-title">
                     Learn
                     <p class="topic">
-                        Multiplication
+                        Division
                     </p>
                 </div>
                 <div class="lessons">
@@ -53,12 +53,12 @@
             <div class="desc-cont practice-container">
                 <div class="title-cont practice-title">
                     <div class="subject-cont">
-                        Multiplication Video
+                        Division Video
                     </div>
                 </div>
                 <div class="lesson-content">
                     <iframe width="560" height="315"
-                        src="https://www.youtube.com/embed/h-CC6jDDahQ?si=FeNs6UUdDx2P6IxJ" title="YouTube video player"
+                        src="https://www.youtube.com/embed/irfMCIgFJZY?si=bjB5ANV5Vo106U8k" title="YouTube video player"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

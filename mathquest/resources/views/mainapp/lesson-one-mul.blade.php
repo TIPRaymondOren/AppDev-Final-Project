@@ -62,7 +62,7 @@
                         the number of groups and 4 is the number being added together.</p>
                     <div class="next-btn-container">
                         <div class="text-btn">Go to next page</div>
-                        <a href="#" class="next-btn"><img src="{{ asset('images/right-arrow.png') }}" alt=""
+                        <a href="{{ url('/lesson-two-mul') }}" class="next-btn"><img src="{{ asset('images/right-arrow.png') }}" alt=""
                             srcset="" class="next-btn-img"></a>
                     </div>
                 </div>

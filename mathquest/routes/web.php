@@ -18,6 +18,10 @@ Route::get('/leaderboards', function () {
     return view('mainapp/leaderboards');
 });
 
+Route::get('/category', function () {
+    return view('mainapp/category');
+});
+
 Route::get('/lesson-one-mul', function () {
     return view('mainapp/lesson-one-mul');
 });
@@ -40,4 +44,8 @@ Route::get('/lesson-two-div', function () {
 
 Route::get('/lesson-three-div', function () {
     return view('mainapp/lesson-three-div');
+});
+
+Route::get('/quiz-mul-easy', function () {
+    return view('mainapp/quiz-mul-easy');
 });

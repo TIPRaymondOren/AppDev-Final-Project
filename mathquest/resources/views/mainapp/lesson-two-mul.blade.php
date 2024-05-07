@@ -60,7 +60,7 @@
                 <img src="{{ asset('images/multiply-table.jpg') }}" alt="" srcset="" class="multiply-table">
                     <div class="next-btn-container">
                         <div class="text-btn">Go to next page</div>
-                        <a href="#" class="next-btn"><img src="{{ asset('images/right-arrow.png') }}"
+                        <a href="/lesson-three-mul" class="next-btn"><img src="{{ asset('images/right-arrow.png') }}"
                                 alt="" srcset="" class="next-btn-img"></a>
                     </div>
                 </div>
