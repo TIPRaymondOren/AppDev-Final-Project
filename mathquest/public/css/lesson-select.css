@@ -33,8 +33,7 @@ body {
 
 .content-container {
     margin: 5vh 0 0 0;
-    display: grid;
-    grid-template-columns: 30% 70%;
+    display: flex;
     width: 100vw;
 }
 
