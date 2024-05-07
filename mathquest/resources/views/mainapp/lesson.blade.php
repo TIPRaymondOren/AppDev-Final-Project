@@ -37,7 +37,7 @@
                             <li class="list mul-list">(3) Lesson Tiers</li>
                             <li class="list mul-list">(3) Quiz Difficulty Tiers</li>
                         </ul>
-                        <a href="#" class="btn btn-success">Start Dividing Now!</a>
+                        <a href="{{ url('/lesson-one-mul') }}" class="btn btn-success">Start Multiplying Now!</a>
                     </div>
                 </div>
                 <div class="desc-cont practice-container">
@@ -54,7 +54,7 @@
                             <li class="list div-list">(3) Lesson Tiers</li>
                             <li class="list div-list">(3) Quiz Difficulty Tiers</li>
                         </ul>
-                        <a href="#" class="btn btn-success">Start Dividing Now!</a>
+                        <a href="/lesson-one-div" class="btn btn-success">Start Dividing Now!</a>
                     </div>
                 </div>
             </div>
