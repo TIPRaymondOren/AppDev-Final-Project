@@ -13,7 +13,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/tailwind.css') }}" rel="stylesheet" type="text/css">
-    <link href="{{ asset('css/lesson.css')}}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('css/easy-quiz.css')}}" rel="stylesheet" type="text/css">
 
     <!-- Bootstrap CDNs -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -53,13 +53,13 @@
             <div class="desc-cont practice-container">
                 <div class="title-cont practice-title">
                     <div class="subject-cont">
-                        Multiplication
+                        Multiplication Quiz
                     </div>
                 </div>
                 <div class="lesson-content">
-                    <p class="content">is a way of adding numbers together quickly. For example, if we have 3 groups of 4, it means we
-                        have 4 added to itself 3 times: 4 + 4 + 4 = 12. This can be written as 3 x 4 = 12, where 3 is
-                        the number of groups and 4 is the number being added together.</p>
+                    <div class="easy-multiply">
+                        <form action="" method="post"></form>
+                    </div>
                     <div class="next-btn-container">
                         <div class="text-btn">Go to next page</div>
                         <a href="{{ url('/lesson-two-mul') }}" class="next-btn"><img src="{{ asset('images/right-arrow.png') }}" alt=""

@@ -32,7 +32,7 @@
                 <div class="nav-title">
                     Learn
                     <p class="topic">
-                        Multiplication
+                        Division
                     </p>
                 </div>
                 <div class="lessons">
@@ -53,7 +53,7 @@
             <div class="desc-cont practice-container">
                 <div class="title-cont practice-title">
                     <div class="subject-cont">
-                        Multiplication Video
+                        Division Video
                     </div>
                 </div>
                 <div class="lesson-content">

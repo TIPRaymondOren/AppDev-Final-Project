@@ -37,3 +37,7 @@ Route::get('/lesson-two-div', function () {
 Route::get('/lesson-three-div', function () {
     return view('mainapp/lesson-three-div');
 });
+
+Route::get('/quiz-mul-easy', function () {
+    return view('mainapp/quiz-mul-easy');
+});
