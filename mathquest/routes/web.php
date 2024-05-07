@@ -41,3 +41,7 @@ Route::get('/lesson-two-div', function () {
 Route::get('/lesson-three-div', function () {
     return view('mainapp/lesson-three-div');
 });
+
+Route::get('/nav', function () {
+    return view('mainapp/nav');
+});
