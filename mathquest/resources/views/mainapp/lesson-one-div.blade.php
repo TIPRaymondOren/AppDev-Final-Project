@@ -33,7 +33,7 @@
                 <div class="nav-title">
                     Learn
                     <p class="topic">
-                        Multiplication
+                        Division
                     </p>
                 </div>
                 <div class="lessons">
@@ -54,16 +54,14 @@
             <div class="desc-cont practice-container">
                 <div class="title-cont practice-title">
                     <div class="subject-cont">
-                        Multiplication
+                        Division
                     </div>
                 </div>
                 <div class="lesson-content">
-                    <p class="content">is a way of adding numbers together quickly. For example, if we have 3 groups of 4, it means we
-                        have 4 added to itself 3 times: 4 + 4 + 4 = 12. This can be written as 3 x 4 = 12, where 3 is
-                        the number of groups and 4 is the number being added together.</p>
+                    <p class="content">Division content here</p>
                     <div class="next-btn-container">
                         <div class="text-btn">Go to next page</div>
-                        <a href="#" class="next-btn"><img src="{{ asset('images/right-arrow.png') }}" alt=""
+                        <a href="/lesson-two-div" class="next-btn"><img src="{{ asset('images/right-arrow.png') }}" alt=""
                             srcset="" class="next-btn-img"></a>
                     </div>
                 </div>

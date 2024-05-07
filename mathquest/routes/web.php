@@ -14,6 +14,10 @@ Route::get('/lesson', function () {
     return view('mainapp/lesson');
 });
 
+Route::get('/leaderboards', function () {
+    return view('mainapp/leaderboards');
+});
+
 Route::get('/category', function () {
     return view('mainapp/category');
 });
@@ -44,4 +48,8 @@ Route::get('/lesson-three-div', function () {
 
 Route::get('/nav', function () {
     return view('mainapp/nav');
+});
+
+Route::get('/quiz-mul-easy', function () {
+    return view('mainapp/quiz-mul-easy');
 });

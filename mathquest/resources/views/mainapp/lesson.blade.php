@@ -55,7 +55,7 @@
                             <li class="list div-list">(3) Lesson Tiers</li>
                             <li class="list div-list">(3) Quiz Difficulty Tiers</li>
                         </ul>
-                        <a href="/lesson-one-div" class="btn btn-success">Start Dividing Now!</a>
+                        <a href="{{ url('/lesson-one-div') }}" class="btn btn-success">Start Dividing Now!</a>
                     </div>
                 </div>
             </div>

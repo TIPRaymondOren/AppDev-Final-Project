@@ -33,7 +33,7 @@
                 <div class="nav-title">
                     Learn
                     <p class="topic">
-                        Multiplication
+                        Division
                     </p>
                 </div>
                 <div class="lessons">
@@ -54,14 +54,14 @@
             <div class="desc-cont practice-container">
                 <div class="title-cont practice-title">
                     <div class="subject-cont">
-                        Multiplication Continuation
+                        Division Continuation
                     </div>
                 </div>
                 <div class="lesson-content">
                 <img src="{{ asset('images/multiply-table.jpg') }}" alt="" srcset="" class="multiply-table">
                     <div class="next-btn-container">
                         <div class="text-btn">Go to next page</div>
-                        <a href="#" class="next-btn"><img src="{{ asset('images/right-arrow.png') }}"
+                        <a href="/lesson-three-div" class="next-btn"><img src="{{ asset('images/right-arrow.png') }}"
                                 alt="" srcset="" class="next-btn-img"></a>
                     </div>
                 </div>
