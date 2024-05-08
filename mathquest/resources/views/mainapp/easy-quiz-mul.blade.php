@@ -37,14 +37,14 @@
                     </p>
                 </div>
                 <div class="difficulty-list">
-                    <div class="lesson-container">
-                        <div class="lesson-title"><b>Easy</b></div>
+                <div class="lesson-container">
+                        <div class="lesson-title fw-bold"><a href="{{ url('/easy-quiz-mul') }}">Easy</a></div>
                     </div>
                     <div class="lesson-container">
-                        <div class="lesson-title">Medium</div>
+                        <div class="lesson-title"><a href="{{ url('/average-quiz-mul') }}">Average</a></div>
                     </div>
                     <div class="lesson-container">
-                        <div class="lesson-title">Hard</div>
+                        <div class="lesson-title"><a href="{{ url('/difficult-quiz-mul') }}">Easy</a></div>
                     </div>
                 </div>
             </div>
@@ -103,7 +103,7 @@
                                 <input type="radio" id="q4_c" name="item-four" value="c">
                                 <label for="q4_c">6</label>
                                 <input type="radio" id="q4_d" name="item-four" value="d">
-                                <label for="q4_d">7</label>
+                                <label for="q4_d">9</label>
                             </div>
 
                             <div class="question">

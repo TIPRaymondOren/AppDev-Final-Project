@@ -37,21 +37,20 @@
                         MULTIPLICATION
                     </p>
                 </div>
- 
-                    <div class="diff-container">
-                        <div class="diff-desc fs-1"><a href="{{ url('/easy-quiz-mul') }}"> Easy</a></div>
-                    </div>
-                    <div class="diff-container">
-                        <div class="diff-desc fs-1 fw-bold"><a href="{{ url('/average-quiz-mul') }}"> Average</a></div>
-                    </div>
-                    <div class="diff-container">
-                        <div class="diff-desc fs-1"><a href="{{ url('/difficult-quiz-mul') }}"> Difficult</a></div>
-                    </div>
+
+                <div class="diff-container">
+                    <div class="diff-desc fs-1"><a href="{{ url('/easy-quiz-mul') }}"> Easy</a></div>
+                </div>
+                <div class="diff-container">
+                    <div class="diff-desc fs-1 fw-bold"><a href="{{ url('/average-quiz-mul') }}"> Average</a></div>
+                </div>
+                <div class="diff-container">
+                    <div class="diff-desc fs-1"><a href="{{ url('/difficult-quiz-mul') }}"> Difficult</a></div>
                 </div>
             </div>
             <div class="quiz-container">
                 <div class="title-cont practice-title">
-                    <h1>Average Questions</h1>
+                    <h1>Multiplication Average Quiz</h1>
                 </div>
                 <div class="lesson-content">
                     <form action="/computeScore" method="POST">
@@ -101,14 +100,15 @@
                     </div>
                 </div>
             </div>
-
         </div>
-        <script>
-            var nameInput = document.getElementById("name");
-            var nameStored = localStorage.getItem("name");
-            nameInput.value = nameStored;
-            nameInput.value = "mamamoxd";
-        </script>
+
+    </div>
+    <script>
+        var nameInput = document.getElementById("name");
+        var nameStored = localStorage.getItem("name");
+        nameInput.value = nameStored;
+        nameInput.value = "mamamoxd";
+    </script>
 </body>
 
 </html>
