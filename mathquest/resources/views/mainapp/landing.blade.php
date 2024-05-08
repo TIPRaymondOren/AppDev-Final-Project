@@ -35,7 +35,7 @@
             <input type="text" name="name" id="name" placeholder="Enter your name here" class="text-input">
         </div>
         <div class="btn" id="start-btn">
-            <a href="{{ url('/lesson') }}" class="start-quest" onclick="storeName()">Start your quest now</a>
+            <a href="{{ url('/lesson') }}" class="start-quest" onclick="storeName()">Start your quest now!</a>
         </div>
         <script>
             function storeName() {
@@ -45,7 +45,7 @@
             }
         </script>
         <div class="description">
-            <form action="/submitScore" method="POST">
+            <!-- <form action="/submitScore" method="POST">
                 @csrf
             
                 <div>
@@ -64,11 +64,11 @@
                 </div>
             
                 <button type="submit">Create User</button>
-            </form>
+            </form> -->
             <div class="desc-cont learn-container">
                 <div class="title-cont learn-title">
                     <div class="icon-container">
-                        <img src="{{ asset('images/light-bulb.png') }}" alt="" srcset="" class="icon">
+                        <center><img src="{{ asset('images/light-bulb.png') }}" alt="" srcset="" class="icon"> </center> 
                     </div>
                     Learn.
                 </div>
@@ -79,8 +79,7 @@
             <div class="desc-cont practice-container">
                 <div class="title-cont practice-title">
                     <div class="icon-container">
-                        <img src="{{ asset('images/clipboard.png') }}" alt="" srcset="" class="icon">
-                    </div>
+                        <center> <img src="{{ asset('images/clipboard.png') }}" alt="" srcset="" class="icon"></center>                    </div>
                     Practice.
                 </div>
                 <div class="practice-desc">
@@ -90,7 +89,7 @@
             <div class="desc-cont grow-container">
                 <div class="title-cont grow-title">
                     <div class="icon-container">
-                        <img src="{{ asset('images/automation.png') }}" alt="" srcset="" class="icon">
+                        <center><img src="{{ asset('images/automation.png') }}" alt="" srcset="" class="icon"> </center>
                     </div>
                     Grow.
                 </div>
