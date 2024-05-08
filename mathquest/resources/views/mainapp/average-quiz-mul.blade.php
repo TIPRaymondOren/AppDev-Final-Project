@@ -1,10 +1,10 @@
 @include('mainapp.nav')
-<!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>Laravel</title>
 
@@ -23,6 +23,8 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
 
+    <!-- Custom JS -->
+    <script src="{{ asset('js/ave-quiz.js') }}"></script>
 </head>
 
 <body class="font-sans antialiased">
@@ -52,7 +54,7 @@
                     <h1>Average Questions</h1>
                 </div>
                 <div class="lesson-content">
-                    <form action="/submitScore" method="POST">
+                    <form action="/takeInformation" method="POST">
                         @csrf
                         <label for="item-one" class=" fs-2">1. 9 × 6 = </label>
                         <input type="text" id="item-one" name="item-one" minlength="1" maxlength="1">
@@ -69,7 +71,8 @@
                         <label for="item-five" class=" fs-2">5. 10 × 9 = </label>
                         <input type="text" id="item-five" name="item-five" minlength="1" maxlength="1">
                         <br>
-                        <button class="btn btn-lg btn-success" type="submit">Submit Answer</button>
+                        <button class="btn btn-lg btn-success" type="submit" onclick="computeScore()">Submit Answer</button>
+                        @csrf
                     </form>
                     <div class="card choices">
                         <h2>Instruction:</h2>
