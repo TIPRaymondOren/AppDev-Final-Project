@@ -35,42 +35,42 @@
                         MULTIPLICATION
                     </p>
                 </div>
-                <div class="lessons">
-                    <div class="lesson-container">
-                        <div class="lesson-desc fs-1">Easy</div>
+                <div class="difficulty-list">
+                    <div class="diff-container">
+                        <div class="diff-desc fs-1"><a href="{{ url('/easy-quiz-mul') }}"> Easy</a></div>
                     </div>
-                    <div class="lesson-container">
-                        <div class="lesson-desc fs-1 fw-bold">Average</div>
+                    <div class="diff-container">
+                        <div class="diff-desc fs-1 fw-bold"><a href="{{ url('/average-quiz-mul') }}"> Average</a></div>
                     </div>
-                    <div class="lesson-container">
-                        <div class="lesson-desc fs-1">Difficult</div>
+                    <div class="diff-container">
+                        <div class="diff-desc fs-1"><a href="{{ url('/difficult-quiz-mul') }}"> Difficult</a></div>
                     </div>
                 </div>
             </div>
-            <div class="desc-cont practice-container">
+            <div class="quiz-container">
                 <div class="title-cont practice-title">
                 
                      <h1>Average Questions</h1>  
                 
                 </div>
-                <div class="lesson-content">
+                <div class="quiz-content">
                     
                 <form action="/submitScore" method="POST">
                     <label for="item-one" class=" fs-2">1. 9 × 6 = </label>
-                    <input type="text" id="item-one" name="item-one"  minlength="1" maxlength="1">
+                    <input type="text" id="item-one" name="item-one"  minlength="1" maxlength="1" required>
                     <br>
                     <label for="item-two" class=" fs-2">2. 7 × 8 = </label>
-                    <input type="text" id="item-two" name="item-two" minlength="1" maxlength="1">
+                    <input type="text" id="item-two" name="item-two" minlength="1" maxlength="1" required>
                  
                     <br>
                     <label for="item-three" class=" fs-2">3. 5 × 11 = </label>
-                    <input type="text" id="item-three" name="item-three" minlength="1" maxlength="1">
+                    <input type="text" id="item-three" name="item-three" minlength="1" maxlength="1" required>
                     <br>
                     <label for="item-four" class=" fs-2">4. 12 × 4 = </label>
-                    <input type="text" id="item-four" name="item-four" minlength="1" maxlength="1">
+                    <input type="text" id="item-four" name="item-four" minlength="1" maxlength="1" required>
                     <br>
                     <label for="item-five" class=" fs-2">5. 10 × 9 = </label>
-                    <input type="text" id="item-five" name="item-five" minlength="1" maxlength="1" >
+                    <input type="text" id="item-five" name="item-five" minlength="1" maxlength="1" required>
                 </div>
               
                 </div>
