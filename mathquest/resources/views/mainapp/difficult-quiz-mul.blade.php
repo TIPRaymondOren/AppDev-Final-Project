@@ -78,11 +78,12 @@
                         <button class="btn btn-lg btn-success" type="submit">Submit Answer</button>
                         @csrf
                     </form>
+                        </div>
+                    </form>
                 </div>
 
             </div>
         </div>
-
 
     </div>
     </div>
