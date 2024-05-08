@@ -37,7 +37,7 @@
                 </div>
                 <div class="lessons">
                     <div class="lesson-container">
-                        <div class="lesson-title">Easy</div>
+                        <div class="lesson-title"><b>Easy</b></div>
                     </div>
                     <div class="lesson-container">
                         <div class="lesson-title">Medium</div>
