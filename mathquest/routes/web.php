@@ -50,6 +50,6 @@ Route::get('/nav', function () {
     return view('mainapp/nav');
 });
 
-Route::get('/quiz-mul-easy', function () {
-    return view('mainapp/quiz-mul-easy');
+Route::get('/average-quiz-mul', function () {
+    return view('mainapp/average-quiz-mul');
 });

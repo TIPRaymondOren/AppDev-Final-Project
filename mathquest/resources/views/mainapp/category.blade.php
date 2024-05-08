@@ -20,7 +20,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
     </head>
-   <body style="background-image: url('/images/cabinbg.png');">
+   <body style="background-image: url('/images/cabinbg.png'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;">
 
    <!-- first card -->
    <div class="card mt-5" style="width: 35%; margin: auto; border-radius: 30px;">
@@ -37,8 +37,8 @@
    <table style="margin:auto; ">
    <tr>
     <td>
-      <a href="{{ url('/land') }}" width="500" height="500" > <img width="500" height="500"src="/images/quizmul.png" /></a></td>
-    <td>  <a href="{{ url('/category') }}" width="500" height="500" > <img width="500" height="500"src="/images/quizdiv.png" /></a></td>
+      <a href="{{ url('/easy-quiz-mul') }}" width="500" height="500" > <img width="500" height="500"src="/images/quizmul.png" /></a></td>
+    <td>  <a href="{{ url('/easy-quiz-div') }}" width="500" height="500" > <img width="500" height="500"src="/images/quizdiv.png" /></a></td>
   </tr>
 
 </table>

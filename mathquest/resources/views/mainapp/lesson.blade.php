@@ -22,7 +22,7 @@
     </head>
     <body class="font-sans antialiased">
         <div class="main-container">
-            <div class="title">Math Quest</div>
+        
             <div class="content-container">
                 <div class="desc-cont learn-container">
                     <div class="title-cont learn-title">
