@@ -60,61 +60,61 @@
                             @csrf
                             <div class="question">
                                 <p>1. 2 x 3 = ?</p>
-                                <input type="radio" id="q1_a" name="question1" value="a">
+                                <input type="radio" id="q1_a" name="item-one" value="a">
                                 <label for="q1_a">5</label>
-                                <input type="radio" id="q1_b" name="question1" value="b">
+                                <input type="radio" id="q1_b" name="item-one" value="b">
                                 <label for="q1_b">6</label>
-                                <input type="radio" id="q1_c" name="question1" value="c">
+                                <input type="radio" id="q1_c" name="item-one" value="c">
                                 <label for="q1_c">7</label>
-                                <input type="radio" id="q1_d" name="question1" value="d">
+                                <input type="radio" id="q1_d" name="item-one" value="d">
                                 <label for="q1_d">8</label>
                             </div>
 
                             <div class="question">
                                 <p>2. 5 x 4 = ?</p>
-                                <input type="radio" id="q2_a" name="question2" value="a">
+                                <input type="radio" id="q2_a" name="item-two" value="a">
                                 <label for="q2_a">16</label>
-                                <input type="radio" id="q2_b" name="question2" value="b">
+                                <input type="radio" id="q2_b" name="item-two" value="b">
                                 <label for="q2_b">18</label>
-                                <input type="radio" id="q2_c" name="question2" value="c">
+                                <input type="radio" id="q2_c" name="item-two" value="c">
                                 <label for="q2_c">20</label>
-                                <input type="radio" id="q2_d" name="question2" value="d">
+                                <input type="radio" id="q2_d" name="item-two" value="d">
                                 <label for="q2_d">22</label>
                             </div>
 
                             <div class="question">
                                 <p>3. 1 x 7 = ?</p>
-                                <input type="radio" id="q3_a" name="question3" value="a">
+                                <input type="radio" id="q3_a" name="item-three" value="a">
                                 <label for="q3_a">5</label>
-                                <input type="radio" id="q3_b" name="question3" value="b">
+                                <input type="radio" id="q3_b" name="item-three" value="b">
                                 <label for="q3_b">6</label>
-                                <input type="radio" id="q3_c" name="question3" value="c">
+                                <input type="radio" id="q3_c" name="item-three" value="c">
                                 <label for="q3_c">7</label>
-                                <input type="radio" id="q3_d" name="question3" value="d">
+                                <input type="radio" id="q3_d" name="item-three" value="d">
                                 <label for="q3_d">8</label>
                             </div>
 
                             <div class="question">
                                 <p>4. 3 x 3 = ?</p>
-                                <input type="radio" id="q4_a" name="question4" value="a">
+                                <input type="radio" id="q4_a" name="item-four" value="a">
                                 <label for="q4_a">4</label>
-                                <input type="radio" id="q4_b" name="question4" value="b">
+                                <input type="radio" id="q4_b" name="item-four" value="b">
                                 <label for="q4_b">5</label>
-                                <input type="radio" id="q4_c" name="question4" value="c">
+                                <input type="radio" id="q4_c" name="item-four" value="c">
                                 <label for="q4_c">6</label>
-                                <input type="radio" id="q4_d" name="question4" value="d">
+                                <input type="radio" id="q4_d" name="item-four" value="d">
                                 <label for="q4_d">7</label>
                             </div>
 
                             <div class="question">
                                 <p>5. 4 x 5 = ?</p>
-                                <input type="radio" id="q5_a" name="question5" value="a">
+                                <input type="radio" id="q5_a" name="item-five" value="a">
                                 <label for="q5_a">16</label>
-                                <input type="radio" id="q5_b" name="question5" value="b">
+                                <input type="radio" id="q5_b" name="item-five" value="b">
                                 <label for="q5_b">18</label>
-                                <input type="radio" id="q5_c" name="question5" value="c">
+                                <input type="radio" id="q5_c" name="item-five" value="c">
                                 <label for="q5_c">20</label>
-                                <input type="radio" id="q5_d" name="question5" value="d">
+                                <input type="radio" id="q5_d" name="item-five" value="d">
                                 <label for="q5_d"></label>
                             </div>
                             <input type="text" id="name" name="name" hidden="true" value="ElChapo">
