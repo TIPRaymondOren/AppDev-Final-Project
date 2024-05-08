@@ -17,6 +17,6 @@ class leaderboardController extends Controller
 
         leaderboard::create($data);
 
-        return redirect('/leaderboards');
+        return redirect('/')->with('success', 'Score submitted successfully');
     }
 }

@@ -45,6 +45,26 @@
             }
         </script>
         <div class="description">
+            <form action="/submitScore" method="POST">
+                @csrf
+            
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+            
+                <div>
+                    <label for="email">Score</label>
+                    <input type="number" id="score" name="score" required>
+                </div>
+            
+                <div>
+                    <label for="password">Difficulty</label>
+                    <input type="text" id="difficulty" name="difficulty" required>
+                </div>
+            
+                <button type="submit">Create User</button>
+            </form>
             <div class="desc-cont learn-container">
                 <div class="title-cont learn-title">
                     <div class="icon-container">

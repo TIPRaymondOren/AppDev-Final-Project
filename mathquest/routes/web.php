@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\leaderboardController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -55,4 +55,4 @@ Route::get('/quiz-mul-easy', function () {
     return view('mainapp/quiz-mul-easy');
 });
 
-Route::post('/submitScore', 'leaderboardController@submitScore');
+Route::post('/submitScore', [leaderboardController::class, 'submitScore'])->name('submit_score');
