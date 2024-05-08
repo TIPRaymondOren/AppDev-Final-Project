@@ -36,7 +36,7 @@
                         Multiplication
                     </p>
                 </div>
-                <div class="lessons">
+                <div class="difficulty-list">
                     <div class="lesson-container">
                         <div class="lesson-title"><b>Easy</b></div>
                     </div>
