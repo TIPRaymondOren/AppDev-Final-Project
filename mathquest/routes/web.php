@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\leaderboardController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -16,6 +17,10 @@ Route::get('/lesson', function () {
 
 Route::get('/leaderboards', function () {
     return view('mainapp/leaderboards');
+});
+
+Route::get('/score', function () {
+    return view('mainapp/score');
 });
 
 Route::get('/category', function () {
@@ -53,3 +58,5 @@ Route::get('/nav', function () {
 Route::get('/average-quiz-mul', function () {
     return view('mainapp/average-quiz-mul');
 });
+
+Route::post('/submitScore', [leaderboardController::class, 'submitScore'])->name('submit_score');

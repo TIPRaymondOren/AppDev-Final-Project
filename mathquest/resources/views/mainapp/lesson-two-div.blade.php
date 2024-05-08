@@ -41,7 +41,7 @@
                         <div class="lesson-title">Lesson 1</div>
                         <div class="lesson-desc">Introduction</div>
                     </div>
-                    <div class="lesson-container">
+                    <div class="lesson-container" style="font-weight: bold;">
                         <div class="lesson-title">Lesson 2</div>
                         <div class="lesson-desc">Continuation</div>
                     </div>

@@ -33,11 +33,11 @@
                 <div class="nav-title">
                     Learn
                     <p class="topic">
-                        Multiplication
+                        MULTIPLICATION
                     </p>
                 </div>
                 <div class="lessons">
-                    <div class="lesson-container">
+                    <div class="lesson-container" style="font-weight: bold;">
                         <div class="lesson-title">Lesson 1</div>
                         <div class="lesson-desc">Introduction</div>
                     </div>
@@ -62,7 +62,7 @@
                         have 4 added to itself 3 times: 4 + 4 + 4 = 12. This can be written as 3 x 4 = 12, where 3 is
                         the number of groups and 4 is the number being added together.</p>
                     <div class="next-btn-container">
-                        <div class="text-btn">Go to next page</div>
+                        <div class="text-btn">Continue to next page</div>
                         <a href="{{ url('/lesson-two-mul') }}" class="next-btn"><img src="{{ asset('images/right-arrow.png') }}" alt=""
                             srcset="" class="next-btn-img"></a>
                     </div>
