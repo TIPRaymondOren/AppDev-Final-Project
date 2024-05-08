@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
+
 Route::get('/', function () {
     return view('welcome');
 });
@@ -53,3 +54,5 @@ Route::get('/nav', function () {
 Route::get('/quiz-mul-easy', function () {
     return view('mainapp/quiz-mul-easy');
 });
+
+Route::post('/submitScore', 'leaderboardController@submitScore');
