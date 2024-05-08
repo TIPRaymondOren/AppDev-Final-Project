@@ -131,7 +131,7 @@
         var nameInput = document.getElementById("name");
         var nameStored = localStorage.getItem("name");
         nameInput.value = nameStored;
-        nameInput.value = "mamamoxd";
+        // nameInput.value = "mamamoxd";
     </script>
 </body>
 

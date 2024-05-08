@@ -30,7 +30,7 @@
 
     <div class="glass-container">
         <h2 class="text-light">Your Score</h2>
-        <div class="score">100</div>
+        <div class="score">tempScore</div>
     </div>
     <div class="glass-container-desc">
         <h5 class="text-desc">Description</h5>
@@ -38,7 +38,9 @@
     </div>
 
     <div class="buttons">
-        <button type="submit" class="btn btn-light">Back to Leaderboards</button>
+        <a href="{{ url('/leaderboards') }}" style="text-decoration: none;">
+            <button type="submit" class="btn btn-light">Check the Leaderboards</button>
+        </a>
     </div>
 
 

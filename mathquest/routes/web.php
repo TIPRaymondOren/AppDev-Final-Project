@@ -15,9 +15,7 @@ Route::get('/lesson', function () {
     return view('mainapp/lesson');
 });
 
-Route::get('/leaderboards', function () {
-    return view('mainapp/leaderboards');
-});
+Route::get('/leaderboards', [leaderboardController::class, 'showLeaderboard'])->name('submit_score');
 
 Route::get('/score', function () {
     return view('mainapp/score');

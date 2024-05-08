@@ -40,9 +40,12 @@ class leaderboardController extends Controller
         }
 
         $this->submitScore($name, $score, $difficulty);
-        // return response()->json(['score' => $score]);
-        // return response()->json(['name' => $name]);
-        // return response()->json($request);
         return redirect("/score");
+    }
+
+    public function showLeaderboard() {
+        // Sort the data from the database into descending order based on their score.
+        $leaderboards = leaderboard::orderBy('score', 'desc')->get(); 
+        return view('mainapp.leaderboards', ['leaderboards' => $leaderboards]);
     }
 }
