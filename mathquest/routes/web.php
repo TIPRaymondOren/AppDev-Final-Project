@@ -78,3 +78,6 @@ Route::get('/difficult-quiz-div', function () {
 });
 
 Route::post('/submitScore', [leaderboardController::class, 'submitScore'])->name('submit_score');
+
+Route::post('/takeInformation', [leaderboardController::class, 'takeInformation'])->name('take_information');
+// Route::post('/submitScore', 'leaderboardController@submitScore');
