@@ -21,7 +21,7 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-        </script>
+    </script>
 
 </head>
 
@@ -59,7 +59,6 @@
                         <br>
                         <label for="item-two" class=" fs-2">2. 7 × 8 = </label>
                         <input type="text" id="item-two" name="item-two" minlength="1" maxlength="1">
-
                         <br>
                         <label for="item-three" class=" fs-2">3. 5 × 11 = </label>
                         <input type="text" id="item-three" name="item-three" minlength="1" maxlength="1">
@@ -95,31 +94,10 @@
                             <p class="choice-proper">P. 56 |</p>
                         </div>
                     </div>
-                <div class="quiz-content">
-                    
-                <form action="/submitScore" method="POST">
-                    <label for="item-one" class=" fs-2">1. 9 × 6 = </label>
-                    <input type="text" id="item-one" name="item-one"  minlength="1" maxlength="1" required>
-                    <br>
-                    <label for="item-two" class=" fs-2">2. 7 × 8 = </label>
-                    <input type="text" id="item-two" name="item-two" minlength="1" maxlength="1" required>
-                 
-                    <br>
-                    <label for="item-three" class=" fs-2">3. 5 × 11 = </label>
-                    <input type="text" id="item-three" name="item-three" minlength="1" maxlength="1" required>
-                    <br>
-                    <label for="item-four" class=" fs-2">4. 12 × 4 = </label>
-                    <input type="text" id="item-four" name="item-four" minlength="1" maxlength="1" required>
-                    <br>
-                    <label for="item-five" class=" fs-2">5. 10 × 9 = </label>
-                    <input type="text" id="item-five" name="item-five" minlength="1" maxlength="1" required>
-                </div>
-              
                 </div>
             </div>
-        </div>
 
-    </div>
+        </div>
 </body>
 
 </html>
