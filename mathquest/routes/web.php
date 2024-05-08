@@ -19,6 +19,10 @@ Route::get('/leaderboards', function () {
     return view('mainapp/leaderboards');
 });
 
+Route::get('/score', function () {
+    return view('mainapp/score');
+});
+
 Route::get('/category', function () {
     return view('mainapp/category');
 });
