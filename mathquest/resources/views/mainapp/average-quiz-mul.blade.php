@@ -51,7 +51,6 @@
                 <div class="title-cont practice-title">
                     <h1>Average Questions</h1>
                 </div>
-<<<<<<< HEAD
                 <div class="lesson-content">
                     <form action="/submitScore" method="POST">
                         @csrf
@@ -96,7 +95,6 @@
                             <p class="choice-proper">P. 56 |</p>
                         </div>
                     </div>
-=======
                 <div class="quiz-content">
                     
                 <form action="/submitScore" method="POST">
@@ -117,7 +115,6 @@
                     <input type="text" id="item-five" name="item-five" minlength="1" maxlength="1" required>
                 </div>
               
->>>>>>> 00ec8951e702e0a07725d381bf158b4998003acf
                 </div>
             </div>
         </div>
