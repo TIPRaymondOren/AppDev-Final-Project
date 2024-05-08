@@ -47,6 +47,8 @@ body {
     align-items: center;
     flex-direction: column;
     margin-top: 100px;
+    position: relative;
+    min-height: 100vh;
 }
 
 .title {
@@ -78,7 +80,6 @@ body {
     margin-top: 3%;
 
 }
-
 
 .diff-container {
     margin-top: 2em;
@@ -126,17 +127,16 @@ input[type=text] {
   }
 
   .submit-btn-container{
-    position: absolute;
     padding: 10px;
-    left: 85%;
-    bottom: 250px;
+    left: 80%;
+    bottom: 300px;
   }
 
   .diff-submit-btn-container{
     position: absolute;
     padding: 10px;
-    left: 85%;
-    bottom:125px;
+    right: 85%;
+    bottom: 125px;
   }
 
   .diff-mul-submit-btn-container{
