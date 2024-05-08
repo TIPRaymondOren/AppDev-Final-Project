@@ -37,7 +37,7 @@
                         MULTIPLICATION
                     </p>
                 </div>
-                <div class="difficulty-list">
+ 
                     <div class="diff-container">
                         <div class="diff-desc fs-1"><a href="{{ url('/easy-quiz-mul') }}"> Easy</a></div>
                     </div>
