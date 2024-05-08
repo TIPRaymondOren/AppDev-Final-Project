@@ -48,7 +48,7 @@
             </table>
         </div>
         <div class="buttons">
-            <button type="button" class="btn btn-light">Quiz Selection</button>
+            <button type="button" class="btn btn-light" >Quiz Selection</button>
             <button type="button" class="btn btn-light">Home</button>
         </div>
     </div>
