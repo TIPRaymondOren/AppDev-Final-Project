@@ -57,71 +57,70 @@
                     <div class="easy-multiply">
                         <form action="" method="post">
                             @csrf
-                            <div class="question-1">
-                                <p>Question 1</p>
+                            <div class="question">
+                                <p>1. 2 x 3 = ?</p>
                                 <input type="radio" id="q1_a" name="question1" value="a">
-                                <label for="q1_a">Option A</label>
+                                <label for="q1_a">5</label>
                                 <input type="radio" id="q1_b" name="question1" value="b">
-                                <label for="q1_b">Option B</label>
+                                <label for="q1_b">6</label>
                                 <input type="radio" id="q1_c" name="question1" value="c">
-                                <label for="q1_c">Option C</label>
+                                <label for="q1_c">7</label>
                                 <input type="radio" id="q1_d" name="question1" value="d">
-                                <label for="q1_d">Option D</label>
+                                <label for="q1_d">8</label>
                             </div>
 
-                            <div class="question-2">
-                                <p>Question 2</p>
+                            <div class="question">
+                                <p>2. 5 x 4 = ?</p>
                                 <input type="radio" id="q2_a" name="question2" value="a">
-                                <label for="q2_a">Option A</label>
+                                <label for="q2_a">16</label>
                                 <input type="radio" id="q2_b" name="question2" value="b">
-                                <label for="q2_b">Option B</label>
+                                <label for="q2_b">18</label>
                                 <input type="radio" id="q2_c" name="question2" value="c">
-                                <label for="q2_c">Option C</label>
+                                <label for="q2_c">20</label>
                                 <input type="radio" id="q2_d" name="question2" value="d">
-                                <label for="q2_d">Option D</label>
+                                <label for="q2_d">22</label>
                             </div>
 
-                            <div class="question-3">
-                                <p>Question 3</p>
+                            <div class="question">
+                                <p>3. 1 x 7 = ?</p>
                                 <input type="radio" id="q3_a" name="question3" value="a">
-                                <label for="q3_a">Option A</label>
+                                <label for="q3_a">5</label>
                                 <input type="radio" id="q3_b" name="question3" value="b">
-                                <label for="q3_b">Option B</label>
+                                <label for="q3_b">6</label>
                                 <input type="radio" id="q3_c" name="question3" value="c">
-                                <label for="q3_c">Option C</label>
+                                <label for="q3_c">7</label>
                                 <input type="radio" id="q3_d" name="question3" value="d">
-                                <label for="q3_d">Option D</label>
+                                <label for="q3_d">8</label>
                             </div>
 
-                            <div class="question-4">
-                                <p>Question 4</p>
+                            <div class="question">
+                                <p>4. 3 x 3 = ?</p>
                                 <input type="radio" id="q4_a" name="question4" value="a">
-                                <label for="q4_a">Option A</label>
+                                <label for="q4_a">4</label>
                                 <input type="radio" id="q4_b" name="question4" value="b">
-                                <label for="q4_b">Option B</label>
+                                <label for="q4_b">5</label>
                                 <input type="radio" id="q4_c" name="question4" value="c">
-                                <label for="q4_c">Option C</label>
+                                <label for="q4_c">6</label>
                                 <input type="radio" id="q4_d" name="question4" value="d">
-                                <label for="q4_d">Option D</label>
+                                <label for="q4_d">7</label>
                             </div>
 
-                            <div class="question-5">
-                                <p>Question 5</p>
+                            <div class="question">
+                                <p>5. 4 x 5 = ?</p>
                                 <input type="radio" id="q5_a" name="question5" value="a">
-                                <label for="q5_a">Option A</label>
+                                <label for="q5_a">16</label>
                                 <input type="radio" id="q5_b" name="question5" value="b">
-                                <label for="q5_b">Option B</label>
+                                <label for="q5_b">18</label>
                                 <input type="radio" id="q5_c" name="question5" value="c">
-                                <label for="q5_c">Option C</label>
+                                <label for="q5_c">20</label>
                                 <input type="radio" id="q5_d" name="question5" value="d">
-                                <label for="q5_d">Option D</label>
-                            </div>
-
-                            <div class="submit-btn-container">
-                                <a href="{{ url('/lesson-two-mul') }}" class="btn btn-light" >Submit Quiz</a>
+                                <label for="q5_d"></label>
                             </div>
                         </form>
                     </div>
+                            <div class="buttons">
+                                <button type="submit" class="btn btn-light" >Submit Quiz</button>
+                            </div>
                 </div>
             </div>
         </div>

@@ -35,14 +35,12 @@ body {
     color: white;
     display: flex;
     flex-direction: column;
-    align-items: start;
     margin: 0 9vw;
     height: inherit;
     width: 80%;
     border-radius: 20px;
     padding: 4%;
     height: 100%;
-
     background: rgba(0, 0, 0, 0.45);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     backdrop-filter: blur(2.5px);
@@ -71,6 +69,16 @@ body {
     font-size: 4em;
 }
 
+.question{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.question p {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
 .subject-cont {
     font-size: 2em;
     font-family: 'Courier New', Courier, monospace;
@@ -87,7 +95,6 @@ body {
 
 .lesson-title {
     font-size: 50px;
-    font-weight: bold;
     margin-left: 60px;
 }
 
@@ -110,25 +117,27 @@ body {
     height: 20%;
 }
 
-/* Position button on the right */
-/* Center the button */
-.submit-btn-container {
+.buttons {
+    margin-top: 20px;
+    display: flex; /* Add display: flex; to enable flexbox */
+    justify-content: flex-end;
+}
+
+.buttons button {
     display: flex;
-    justify-content: center; /* Aligns items horizontally */
-    margin-top: 20px; /* Adjust as needed */
-}
-
-/* Style for the submit button */
-.submit-btn {
-    padding: 10px 20px;
-    background-color: #f0f0f0; /* Light color */
-    border-radius: 5px;
-    text-decoration: none; /* Removes underline from link */
-    color: #000; /* Text color */
-    transition: background-color 0.3s; /* Smooth transition */
-}
-
-.submit-btn:hover {
-    background-color: #ffff00; 
-}
-
+    align-items: right;
+    justify-content: center;
+    position: relative;
+    margin-top: 20px auto;
+    margin-left: 10px;
+    width: 200px;
+    background: white;
+    color: black;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    transition: 1s box-shadow;
+  }
+  
