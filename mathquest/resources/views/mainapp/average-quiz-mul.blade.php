@@ -50,7 +50,7 @@
             </div>
             <div class="quiz-container">
                 <div class="title-cont practice-title">
-                    <h1>Average Questions</h1>
+                    <h1>Multiplication Average Quiz</h1>
                 </div>
                 <div class="lesson-content">
                     <form action="/computeScore" method="POST">

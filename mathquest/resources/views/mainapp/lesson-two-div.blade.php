@@ -57,7 +57,7 @@
                     </div>
                 </div>
                 <div class="lesson-content">
-                <img src="{{ asset('images/multiply-table.jpg') }}" alt="" srcset="" class="multiply-table">
+                <img src="{{ asset('images/division-table.jpg') }}" alt="" srcset="" class="multiply-table">
                     <div class="next-btn-container">
                         <div class="text-btn">Go to next page</div>
                         <a href="/lesson-three-div" class="next-btn"><img src="{{ asset('images/right-arrow.png') }}"

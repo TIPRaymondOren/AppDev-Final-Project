@@ -37,13 +37,13 @@
                 </div>
                 <div class="difficulty-list">
                     <div class="lesson-container">
-                        <div class="lesson-title"><b>Easy</b></div>
+                        <div class="lesson-title fw-bold"><a href="{{ url('/easy-quiz-div') }}">Easy</a></div>
                     </div>
                     <div class="lesson-container">
-                        <div class="lesson-title">Medium</div>
+                        <div class="lesson-title"><a href="{{ url('/average-quiz-div') }}">Average</a></div>
                     </div>
                     <div class="lesson-container">
-                        <div class="lesson-title">Hard</div>
+                        <div class="lesson-title"><a href="{{ url('/difficult-quiz-div') }}">Easy</a></div>
                     </div>
                 </div>
             </div>
