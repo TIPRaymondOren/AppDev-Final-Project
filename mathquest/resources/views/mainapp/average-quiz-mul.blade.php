@@ -54,7 +54,7 @@
                     <h1>Average Questions</h1>
                 </div>
                 <div class="lesson-content">
-                    <form action="/takeInformation" method="POST">
+                    <form action="/computeScore" method="POST">
                         @csrf
                         <label for="item-one" class=" fs-2">1. 9 × 6 = </label>
                         <input type="text" id="item-one" name="item-one" minlength="1" maxlength="1">
@@ -71,7 +71,9 @@
                         <label for="item-five" class=" fs-2">5. 10 × 9 = </label>
                         <input type="text" id="item-five" name="item-five" minlength="1" maxlength="1">
                         <br>
-                        <button class="btn btn-lg btn-success" type="submit" onclick="computeScore()">Submit Answer</button>
+                        <input type="text" id="name" name="name" hidden="true" value="Tempname">
+                        <input type="text" id="difficulty" name="difficulty" hidden="true" value="average">
+                        <button class="btn btn-lg btn-success" type="submit">Submit Answer</button>
                         @csrf
                     </form>
                     <div class="card choices">
@@ -101,6 +103,12 @@
             </div>
 
         </div>
+        <script>
+            var nameInput = document.getElementById("name");
+            var nameStored = localStorage.getItem("name");
+            nameInput.value = nameStored;
+            nameInput.value = "mamamoxd";
+        </script>
 </body>
 
 </html>

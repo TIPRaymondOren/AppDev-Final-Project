@@ -7,27 +7,42 @@ use App\Models\leaderboard;
 
 class leaderboardController extends Controller
 {
-    public function submitScore(Request $request) 
+    public function submitScore($name, $score, $difficulty) 
     {
-        $name = $request->input('name');
-        $score = $request->input('finalScore');
-        $difficulty = $request->input('difficulty');
-
-        $leaderboard = new leaderboard();
-        $leaderboard->name = $name;
-        $leaderboard->score = $score;
-        $leaderboard->difficulty = $difficulty;
-        // $leaderboard->save();
-
-        return response()->json(['message' => 'User record saved successfully']);
+        $leaderboardModel = new leaderboard();
+        $leaderboardModel->name = $name;
+        $leaderboardModel->score = $score;
+        $leaderboardModel->difficulty = $difficulty;
+        $leaderboardModel->save();
     }
 
-    public function takeInformation(Request $request) {
-        $name = $request->input('name');
-        $score = $request->input('score');
-        $difficulty = $request->input('difficulty');
-        // $difficulty = "diff here";
+    public function computeScore(Request $request) {
 
-        return response()->json(['name' => $name, 'score' => $score, 'difficulty' => $difficulty]);
+        // Data from the JSON file sent by the form
+        $answer1 = $request->input('item-one');
+        $answer2 = $request->input('item-two');
+        $answer3 = $request->input('item-three');
+        $answer4 = $request->input('item-four');
+        $answer5 = $request->input('item-five');
+        $name = $request->input('name');
+        $difficulty = $request->input('difficulty');
+
+        // Local variables for organization and processing
+        $userAnswer = [$answer1, $answer2, $answer3, $answer4, $answer5];
+        $score = 0;
+        $correctAnswers = ["I", "P", "H", "C", "G"];
+
+        // Foreach loop for calculating the score
+        foreach ($userAnswer as $index => $answer) {
+            if ($answer === $correctAnswers[$index]) {
+                $score++;
+            }
+        }
+
+        $this->submitScore($name, $score, $difficulty);
+        // return response()->json(['score' => $score]);
+        // return response()->json(['name' => $name]);
+        // return response()->json($request);
+        return redirect("/score");
     }
 }

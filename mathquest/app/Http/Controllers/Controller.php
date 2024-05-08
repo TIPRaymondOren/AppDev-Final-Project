@@ -104,13 +104,13 @@ abstract class Controller
         $name = $request->input('name');
         $age = $request->input('age');
         $score = $request->input('score');
-    
+
         $userRecord = new UserRecord();
         $userRecord->name = $name;
         $userRecord->age = $age;
         $userRecord->score = $score;
         $userRecord->save();
-    
+
         return response()->json(['name' => $name, 'age' => $age]);
     }
 
