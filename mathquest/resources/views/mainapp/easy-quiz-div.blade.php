@@ -36,14 +36,14 @@
                     </p>
                 </div>
                 <div class="difficulty-list">
-                    <div class="lesson-container">
-                        <div class="lesson-title"><b>Easy</b></div>
+                    <div class="diff-container">
+                        <div class="diff-desc fs-1"><a href="{{ url('/easy-quiz-mul') }}"> Easy</a></div>
                     </div>
-                    <div class="lesson-container">
-                        <div class="lesson-title">Medium</div>
+                    <div class="diff-container">
+                        <div class="diff-desc fs-1 fw-bold"><a href="{{ url('/average-quiz-mul') }}"> Average</a></div>
                     </div>
-                    <div class="lesson-container">
-                        <div class="lesson-title">Hard</div>
+                    <div class="diff-container">
+                        <div class="diff-desc fs-1"><a href="{{ url('/difficult-quiz-mul') }}"> Difficult</a></div>
                     </div>
                 </div>
             </div>
