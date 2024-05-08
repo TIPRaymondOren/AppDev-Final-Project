@@ -71,8 +71,9 @@
                     <br>
                     <label for="item-five" class=" fs-2">5. 10 × 9 = </label>
                     <input type="text" id="item-five" name="item-five" minlength="1" maxlength="1" >
-                 </div>
-                   </form>
+                </div>
+              
+                </div>
             </div>
             <div class="card mt-5 choices" >
             <h2>Instruction:</h2>
@@ -108,6 +109,10 @@
             
         </div>
     </div>
+
+    <div class="submit-btn-container" >
+               <button type="submit" class="btn btn-lg btn-success">Submit Quiz</button> 
+               </div>
 </body>
 
 </html>
