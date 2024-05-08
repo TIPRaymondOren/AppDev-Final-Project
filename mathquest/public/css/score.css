@@ -52,4 +52,187 @@ body {
 
 .text-light {
     color: black;
+    text-align: center;
+    justify-content: center;
 }
+
+/* css ng score board */
+.glass-container {
+    background: rgba(0, 0, 0, 0.519);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 50vw;
+    height: 20vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.score {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.glass-container-desc {
+    background: rgba(0, 0, 0, 0.519);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 50vw;
+    height: 40vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-desc {
+    color: #fff;
+    text-align: left;
+    justify-content: left;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.score-desc {
+    font-size: 30px;
+
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex; /* Add display: flex; to enable flexbox */
+    justify-content: center;
+}
+
+
+.buttons button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 20px auto;
+    margin-left: 10px;
+    width: 300px;
+    background: white;
+    color: black;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    transition: 1s box-shadow;
+  }
+  
+  button:hover {
+    box-shadow: 0 5px 35px 0px rgba(0,0,0,.1);
+    background-color: antiquewhite;
+  }
+
+  .btn:hover{
+    background-color: #f9f9f9;
+  }
+  
+  button:hover::before, button:hover::after {
+    display: block;
+    content: '';
+    position: absolute;
+    width: 200px;
+    height: 35px;
+    background: #ffee00;
+    border-radius: 7px;
+    z-index: -1;
+    animation: 1s clockwise infinite;
+  }
+  
+  button:hover:after {
+    background: #ffbf00;
+    animation: 1s counterclockwise infinite;
+  }
+  
+  @keyframes clockwise {
+    0% {
+      top: -5px;
+      left: 0;
+    }
+    12% {
+      top: -2px;
+      left: 2px;
+    }
+    25% {
+      top: 0;
+      left: 5px;    
+    }
+    37% {
+      top: 2px;
+      left: 2px;
+    }
+    50% {
+      top: 5px;
+      left: 0;    
+    }
+    62% {
+      top: 2px;
+      left: -2px;
+    }
+    75% {
+      top: 0;
+      left: -5px;
+    }
+    87% {
+      top: -2px;
+      left: -2px;
+    }
+    100% {
+      top: -5px;
+      left: 0;    
+    }
+  }
+  
+  @keyframes counterclockwise {
+    0% {
+      top: -5px;
+      right: 0;
+    }
+    12% {
+      top: -2px;
+      right: 2px;
+    }
+    25% {
+      top: 0;
+      right: 5px;    
+    }
+    37% {
+      top: 2px;
+      right: 2px;
+    }
+    50% {
+      top: 5px;
+      right: 0;    
+    }
+    62% {
+      top: 2px;
+      right: -2px;
+    }
+    75% {
+      top: 0;
+      right: -5px;
+    }
+    87% {
+      top: -2px;
+      right: -2px;
+    }
+    100% {
+      top: -5px;
+      right: 0;    
+    }
+  }
