@@ -70,7 +70,7 @@
                             </div>
 
                             <div class="question">
-                                <p>2. 8 ÷ 4 = ?p>
+                                <p>2. 8 ÷ 4 = ?</p>
                                 <input type="radio" id="q2_a" name="item-two" value="a">
                                 <label for="q2_a">1</label>
                                 <input type="radio" id="q2_b" name="item-two" value="b">
