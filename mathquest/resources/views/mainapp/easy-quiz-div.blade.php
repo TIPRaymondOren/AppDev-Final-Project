@@ -24,6 +24,7 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
 </head>
+
 <body class="font-sans antialiased">
     <div class="main-container">
         <div class="content-container">
@@ -70,14 +71,14 @@
 
                             <div class="question">
                                 <p>2. 8 ÷ 4 = ?p>
-                                <input type="radio" id="q2_a" name="question2" value="a">
-                                <label for="q2_a">1</label>
-                                <input type="radio" id="q2_b" name="question2" value="b">
-                                <label for="q2_b">2</label>
-                                <input type="radio" id="q2_c" name="question2" value="c">
-                                <label for="q2_c">3</label>
-                                <input type="radio" id="q2_d" name="question2" value="d">
-                                <label for="q2_d">4</label>
+                                    <input type="radio" id="q2_a" name="question2" value="a">
+                                    <label for="q2_a">1</label>
+                                    <input type="radio" id="q2_b" name="question2" value="b">
+                                    <label for="q2_b">2</label>
+                                    <input type="radio" id="q2_c" name="question2" value="c">
+                                    <label for="q2_c">3</label>
+                                    <input type="radio" id="q2_d" name="question2" value="d">
+                                    <label for="q2_d">4</label>
                             </div>
 
                             <div class="question">
@@ -116,22 +117,22 @@
                                 <label for="q5_d">4</label>
                             </div>
                             <input type="text" id="name" name="name" hidden="true" value="ElChapo">
-                        <input type="text" id="difficulty" name="difficulty" hidden="true" value="easy">
-                        <button class="btn btn-lg btn-success" type="submit">Submit Answer</button>
-                        @csrf
+                            <input type="text" id="difficulty" name="difficulty" hidden="true" value="easy">
+                            <button class="btn btn-lg btn-success" type="submit">Submit Answer</button>
+                            @csrf
                         </form>
+                    </div>
                 </div>
-                </div>
-                
+
             </div>
         </div>
     </div>
     <script>
-            var nameInput = document.getElementById("name");
-            var nameStored = localStorage.getItem("name");
-            nameInput.value = nameStored;
-            nameInput.value = "mamamoxd";
-        </script>
+        var nameInput = document.getElementById("name");
+        var nameStored = localStorage.getItem("name");
+        nameInput.value = nameStored;
+        nameInput.value = "mamamoxd";
+    </script>
 </body>
 
 </html>

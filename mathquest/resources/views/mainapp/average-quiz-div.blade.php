@@ -55,47 +55,47 @@
                 </div>
                 <div class="lesson-content">
                     <form action="/computeScore" method="POST">
-                    @csrf
-                    <label for="item-one" class=" fs-2">1. 24 ÷ 3 = </label>
-                    <input type="text" id="item-one" name="item-one"  minlength="1" maxlength="1" required>
-                    <br>
-                    <label for="item-two" class=" fs-2">2. 72 ÷ 8 = </label>
-                    <input type="text" id="item-two" name="item-two" minlength="1" maxlength="1" required>
-                    <br>
-                    <label for="item-three" class=" fs-2">3. 63 ÷ 9 = </label>
-                    <input type="text" id="item-three" name="item-three" minlength="1" maxlength="1" required>
-                    <br>
-                    <label for="item-four" class=" fs-2">4. 96 ÷ 6 = </label>
-                    <input type="text" id="item-four" name="item-four" minlength="1" maxlength="1" required>
-                    <br>
-                    <label for="item-five" class=" fs-2">5. 120 ÷ 10 = </label>
-                    <input type="text" id="item-five" name="item-five" minlength="1" maxlength="1" required >
-                    <input type="text" id="name" name="name" hidden="true" value="Tempname">
-                    <input type="text" id="difficulty" name="difficulty" hidden="true" value="average">
-                    <button class="btn btn-lg btn-success" type="submit">Submit Answer</button>
-                    @csrf
+                        @csrf
+                        <label for="item-one" class=" fs-2">1. 24 ÷ 3 = </label>
+                        <input type="text" id="item-one" name="item-one" minlength="1" maxlength="1" required>
+                        <br>
+                        <label for="item-two" class=" fs-2">2. 72 ÷ 8 = </label>
+                        <input type="text" id="item-two" name="item-two" minlength="1" maxlength="1" required>
+                        <br>
+                        <label for="item-three" class=" fs-2">3. 63 ÷ 9 = </label>
+                        <input type="text" id="item-three" name="item-three" minlength="1" maxlength="1" required>
+                        <br>
+                        <label for="item-four" class=" fs-2">4. 96 ÷ 6 = </label>
+                        <input type="text" id="item-four" name="item-four" minlength="1" maxlength="1" required>
+                        <br>
+                        <label for="item-five" class=" fs-2">5. 120 ÷ 10 = </label>
+                        <input type="text" id="item-five" name="item-five" minlength="1" maxlength="1" required>
+                        <input type="text" id="name" name="name" hidden="true" value="Tempname">
+                        <input type="text" id="difficulty" name="difficulty" hidden="true" value="average">
+                        <button class="btn btn-lg btn-success" type="submit">Submit Answer</button>
+                        @csrf
                     </form>
                     <div class="card choices">
                         <h2>Instruction:</h2>
                         <p>Choose the correct letter of the answer from the choices below.</p>
                         <h2>Choices:</h2>
                         <div class="flex-row">
-                        <p class="choice-proper">A. 15</p>
-                                <p class="choice-proper">B. 12</p>
-                                <p class="choice-proper">C. 9</p>
-                                <p class="choice-proper">D. 6</p>
-                                <p class="choice-proper">E. 7</p>
-                                <p class="choice-proper">F. 8</p>
-                                <p class="choice-proper">G. 10</p>
-                                <p class="choice-proper">H. 6</p>
-                                <p class="choice-proper">I. 21</p>
-                                <p class="choice-proper">J. 66</p>
-                                <p class="choice-proper">K. 38</p>
-                                <p class="choice-proper">L. 6</p>
-                                <p class="choice-proper">M. 111</p>
-                                <p class="choice-proper">N. 64</p>
-                                <p class="choice-proper">O. 95</p>
-                                <p class="choice-proper">P. 5</p>
+                            <p class="choice-proper">A. 15</p>
+                            <p class="choice-proper">B. 12</p>
+                            <p class="choice-proper">C. 9</p>
+                            <p class="choice-proper">D. 6</p>
+                            <p class="choice-proper">E. 7</p>
+                            <p class="choice-proper">F. 8</p>
+                            <p class="choice-proper">G. 10</p>
+                            <p class="choice-proper">H. 6</p>
+                            <p class="choice-proper">I. 21</p>
+                            <p class="choice-proper">J. 66</p>
+                            <p class="choice-proper">K. 38</p>
+                            <p class="choice-proper">L. 6</p>
+                            <p class="choice-proper">M. 111</p>
+                            <p class="choice-proper">N. 64</p>
+                            <p class="choice-proper">O. 95</p>
+                            <p class="choice-proper">P. 5</p>
                         </div>
                     </div>
                 </div>

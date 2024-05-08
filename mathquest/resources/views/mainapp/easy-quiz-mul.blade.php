@@ -56,7 +56,7 @@
                 </div>
                 <div class="lesson-content">
                     <div class="easy-multiply">
-                    <form action="/computeScore" method="POST">
+                        <form action="/computeScore" method="POST">
                             @csrf
                             <div class="question">
                                 <p>1. 2 x 3 = ?</p>
@@ -118,8 +118,8 @@
                                 <label for="q5_d"></label>
                             </div>
                             <input type="text" id="name" name="name" hidden="true" value="ElChapo">
-                        <input type="text" id="difficulty" name="difficulty" hidden="true" value="easy">
-                        <button class="btn btn-lg btn-success" type="submit">Submit Answer</button>
+                            <input type="text" id="difficulty" name="difficulty" hidden="true" value="easy">
+                            <button class="btn btn-lg btn-success" type="submit">Submit Answer</button>
                             @csrf
                         </form>
                     </div>
@@ -128,11 +128,11 @@
         </div>
     </div>
     <script>
-            var nameInput = document.getElementById("name");
-            var nameStored = localStorage.getItem("name");
-            nameInput.value = nameStored;
-            nameInput.value = "mamamoxd";
-        </script>
+        var nameInput = document.getElementById("name");
+        var nameStored = localStorage.getItem("name");
+        nameInput.value = nameStored;
+        nameInput.value = "mamamoxd";
+    </script>
 </body>
 
 </html>
