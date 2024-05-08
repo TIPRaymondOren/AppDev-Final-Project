@@ -74,7 +74,7 @@
                         <label for="item-five" class=" fs-2 ">5. 475 x 6 = __</label>
                         <input type="number" id="item-five" name="item-five" required>
                         <input type="text" id="name" name="name" hidden="true" value="ElChapo">
-                        <input type="text" id="difficulty" name="difficulty" hidden="true" value="difficult">
+                        <input type="text" id="difficulty" name="difficulty" hidden="true" value="difficult"> <br>
                         <button class="btn btn-lg btn-success" type="submit">Submit Answer</button>
                         @csrf
                     </form>
