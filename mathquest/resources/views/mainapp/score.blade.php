@@ -20,20 +20,8 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
     </head>
-   <body style="background-image: url('/images/cabinbg.png');">
-
-
-<h1 class="text-center text-light mt-5">I am a Master of...</h1>
-
-
-   <table style="margin:auto; ">
-   <tr>
-    <td>
-      <a href="{{ url('/land') }}" width="500" height="500" > <img width="500" height="500"src="/images/quizmul.png" /></a></td>
-    <td>  <a href="{{ url('/category') }}" width="500" height="500" > <img width="500" height="500"src="/images/quizdiv.png" /></a></td>
-  </tr>
-
-</table>
-
+   <body>
+            <h1 class="text-center text-light mt-5">Score</h1>
+            
     </body>
 </html>
