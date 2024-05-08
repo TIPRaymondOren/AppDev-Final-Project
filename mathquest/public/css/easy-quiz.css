@@ -78,6 +78,11 @@ body {
     font-weight: bold;
 }
 
+.question label {
+  margin-right: 20px;
+}
+
+
 
 .subject-cont {
     font-size: 2em;
