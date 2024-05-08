@@ -55,7 +55,25 @@ Route::get('/nav', function () {
     return view('mainapp/nav');
 });
 
+Route::get('/easy-quiz-mul', function () {
+    return view('mainapp/average-quiz-mul');
+});
+Route::get('/easy-quiz-div', function () {
+    return view('mainapp/average-quiz-mul');
+});
 Route::get('/average-quiz-mul', function () {
+    return view('mainapp/average-quiz-mul');
+});
+
+Route::get('/average-quiz-div', function () {
+    return view('mainapp/average-quiz-div');
+});
+
+Route::get('/difficult-quiz-mul', function () {
+    return view('mainapp/average-quiz-mul');
+});
+
+Route::get('/difficult-quiz-div', function () {
     return view('mainapp/average-quiz-mul');
 });
 

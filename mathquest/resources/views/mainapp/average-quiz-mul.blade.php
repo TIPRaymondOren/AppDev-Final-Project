@@ -55,7 +55,7 @@
                 </div>
                 <div class="lesson-content">
                     
-             
+                <form action="/submitScore" method="POST">
                     <label for="item-one" class=" fs-2">1. 9 × 6 = </label>
                     <input type="text" id="item-one" name="item-one"  minlength="1" maxlength="1">
                     <br>
@@ -71,9 +71,8 @@
                     <br>
                     <label for="item-five" class=" fs-2">5. 10 × 9 = </label>
                     <input type="text" id="item-five" name="item-five" minlength="1" maxlength="1" >
-                </div>
-                <a href="{{ url('/score') }}" class="btn btn-success fw-bold me-4 px-5 border border-light submit-btn" role="button">Submit Quiz</a>
-                </div>
+                 </div>
+                   </form>
             </div>
             <div class="card mt-5 choices" >
             <h2>Instruction:</h2>
