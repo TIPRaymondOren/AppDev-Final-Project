@@ -78,17 +78,11 @@
                         <button class="btn btn-lg btn-success" type="submit">Submit Answer</button>
                         @csrf
                     </form>
-                            <div class="submit-btn-container">
-                            <button type="submit" class="btn btn-lg btn-success" style="margin-bottom: -200px;">Submit Quiz</button>
                         </div>
                     </form>
                 </div>
 
             </div>
-        </div>
-        <div class="card mt-5 diff-instr">
-            <h2>Instruction:</h2>
-            <p>Type the correct answer on the blank input fields.</p>
         </div>
 
     </div>
