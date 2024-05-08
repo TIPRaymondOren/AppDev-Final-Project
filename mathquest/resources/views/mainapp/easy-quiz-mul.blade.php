@@ -1,3 +1,4 @@
+@include('mainapp.nav')
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
@@ -13,7 +14,6 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/tailwind.css') }}" rel="stylesheet" type="text/css">
-    <link href="{{ asset('css/lesson.css') }}" rel="stylesheet" type="text/css">
     <link href="{{ asset('css/easy-quiz.css') }}" rel="stylesheet" type="text/css">
 
     <!-- Bootstrap CDNs -->
@@ -27,31 +27,27 @@
 
 <body class="font-sans antialiased">
     <div class="main-container">
-        <div class="title">Math Quest</div>
         <div class="content-container">
             <div class="nav-container">
                 <div class="nav-title">
-                    Learn
+                    Practice
                     <p class="topic">
                         Multiplication
                     </p>
                 </div>
                 <div class="lessons">
                     <div class="lesson-container">
-                        <div class="lesson-title">Lesson 1</div>
-                        <div class="lesson-desc">Introduction</div>
+                        <div class="lesson-title">Easy</div>
                     </div>
                     <div class="lesson-container">
-                        <div class="lesson-title">Lesson 2</div>
-                        <div class="lesson-desc">Continuation</div>
+                        <div class="lesson-title">Medium</div>
                     </div>
                     <div class="lesson-container">
-                        <div class="lesson-title">Lesson 3</div>
-                        <div class="lesson-desc">Video Presentation</div>
+                        <div class="lesson-title">Hard</div>
                     </div>
                 </div>
             </div>
-            <div class="desc-cont practice-container">
+            <div class="desc-cont">
                 <div class="title-cont practice-title">
                     <div class="subject-cont">
                         Multiplication Quiz
@@ -122,7 +118,7 @@
                             </div>
 
                             <div class="submit-btn-container">
-                                <a href="{{ url('/lesson-two-mul') }}" class="next-btn">Submit Quiz</a>
+                                <a href="{{ url('/lesson-two-mul') }}" class="btn btn-light" >Submit Quiz</a>
                             </div>
                         </form>
                     </div>

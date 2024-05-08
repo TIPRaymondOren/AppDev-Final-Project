@@ -57,11 +57,11 @@ body {
     margin-top: 100px;
 }
 
-.title {
-    margin-top: 2%;
-    font-size: 4em;
+.nav-title{
+    font-size: 30px;
+    text-align: left;
+    font-weight: bold;
 }
-
 .subject-cont {
     font-size: 2em;
 }
@@ -81,7 +81,9 @@ body {
 }
 
 .lesson-desc {
-    font-size: 2em;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 60px;
 }
 
 .next-btn-img {

@@ -12,6 +12,19 @@
 body {
     height: 100vh;
     width: 100vw;
+    font-family: 'figtree', sans-serif;
+    background-image: url('../images/cabinbg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-title{
+    font-size: 30px;
+    text-align: left;
+    font-weight: bold;
 }
 
 .icon {
@@ -19,7 +32,7 @@ body {
 }
 
 .desc-cont {
-    background-color: antiquewhite;
+    color: white;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -29,7 +42,15 @@ body {
     border-radius: 20px;
     padding: 4%;
     height: 100%;
+
+    background: rgba(0, 0, 0, 0.45);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(2.5px);
+    -webkit-backdrop-filter: blur(2.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
 }
+
 
 .content-container {
     margin: 5vh 0 0 0;
@@ -59,18 +80,18 @@ body {
     display: flex;
     flex-direction: column;
     align-items: top;
-    background-color:blueviolet;
+    background-color:white;
     border-radius: 0 20px 20px 0;
     padding: 6%;
 }
 
-.lessons {
-    margin-top: 5%;
+.lesson-title {
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 60px;
 }
 
-.lesson-desc {
-    font-size: 2em;
-}
+
 
 .next-btn-img {
     height: 20px;
@@ -89,16 +110,25 @@ body {
     height: 20%;
 }
 
-.next-btn-container {
+/* Position button on the right */
+/* Center the button */
+.submit-btn-container {
     display: flex;
-    justify-content: end;
-    align-items: center;
+    justify-content: center; /* Aligns items horizontally */
+    margin-top: 20px; /* Adjust as needed */
 }
 
-.text-btn {
-    margin-right: 2%;
+/* Style for the submit button */
+.submit-btn {
+    padding: 10px 20px;
+    background-color: #f0f0f0; /* Light color */
+    border-radius: 5px;
+    text-decoration: none; /* Removes underline from link */
+    color: #000; /* Text color */
+    transition: background-color 0.3s; /* Smooth transition */
 }
 
-label {
-    margin-right: 30px;
+.submit-btn:hover {
+    background-color: #ffff00; 
 }
+
