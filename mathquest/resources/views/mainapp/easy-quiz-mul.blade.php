@@ -51,7 +51,7 @@
             <div class="desc-cont">
                 <div class="title-cont practice-title">
                     <div class="subject-cont">
-                        Multiplication Quiz
+                        Multiplication Quiz: Answer the following operations below.
                     </div>
                 </div>
                 <div class="lesson-content">

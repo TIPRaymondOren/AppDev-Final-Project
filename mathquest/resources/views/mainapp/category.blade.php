@@ -23,11 +23,11 @@
    <body style="background-image: url('/images/cabinbg.png'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;">
 
    <!-- first card -->
-   <div class="card mt-5" style="width: 35%; margin: auto; border-radius: 30px;">
+   <div class="card mt-5" style="width: 40%; margin: auto; border-radius: 30px;">
    <h1 class="mt-4 ms-2">
  <img width="70" height="70" class="d-inline-block align-top ms-5 mb-0" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHN0eWxlPSJjb2xvcjpjdXJyZW50Q29sb3IiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgY2xhc3M9ImgtZnVsbCB3LWZ1bGwiPjxyZWN0IHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB4PSIwIiB5PSIwIiByeD0iMzAiIGZpbGw9InRyYW5zcGFyZW50IiBzdHJva2U9InRyYW5zcGFyZW50IiBzdHJva2Utd2lkdGg9IjAiIHN0cm9rZS1vcGFjaXR5PSIxMDAlIiBwYWludC1vcmRlcj0ic3Ryb2tlIj48L3JlY3Q+PHN2ZyB3aWR0aD0iNTEycHgiIGhlaWdodD0iNTEycHgiIHZpZXdCb3g9IjAgMCAxNCAxNCIgZmlsbD0iY3VycmVudENvbG9yIiB4PSIwIiB5PSIwIiByb2xlPSJpbWciIHN0eWxlPSJkaXNwbGF5OmlubGluZS1ibG9jazt2ZXJ0aWNhbC1hbGlnbjptaWRkbGUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0iY3VycmVudENvbG9yIj48ZyBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNOS41IDEuNUgxMWExIDEgMCAwIDEgMSAxdjEwYTEgMSAwIDAgMS0xIDFIM2ExIDEgMCAwIDEtMS0xdi0xMGExIDEgMCAwIDEgMS0xaDEuNSI+PC9wYXRoPjxyZWN0IHdpZHRoPSI1IiBoZWlnaHQ9IjIuNSIgeD0iNC41IiB5PSIuNSIgcng9IjEiPjwvcmVjdD48cGF0aCBkPSJtNC41IDguNWwyIDEuNUw5IDYiPjwvcGF0aD48L2c+PC9nPjwvc3ZnPjwvc3ZnPg==" alt="interface-file-clipboard-check-checkmark-edit-task-edition-checklist-check-success-clipboard-form" style="color:currentColor"></img>
- <span class="fw-bold">  Determine your Mastery! </span>   </h1>
- <p style="margin-left: 135px; ">Choose from the selection below what you want to practice</p>
+ <span class="fw-bold">  Determine your Mastery! </span></h1>
+ <p style="margin-left: 145px; ">Choose from the selection below what you want to practice</p>
    </div>
 
 

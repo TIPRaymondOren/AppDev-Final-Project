@@ -51,10 +51,10 @@
             </div>
             <div class="quiz-container">
                 <div class="title-cont practice-title">
-
-                    <h1>Difficult Questions</h1>
-
-                </div>
+                
+                     <h1>Multiplication Difficult Quiz</h1>  
+                        <p class="mul-dif-inst" style="font-size: 25px;">Instructions: Type the correct answer on the blank input field</p>            
+                    </div>
                 <div class="quiz-content">
 
                     <form action="/computeScore" method="POST">
@@ -78,6 +78,10 @@
                         <button class="btn btn-lg btn-success" type="submit">Submit Answer</button>
                         @csrf
                     </form>
+                            <div class="submit-btn-container">
+                            <button type="submit" class="btn btn-lg btn-success" style="margin-bottom: -200px;">Submit Quiz</button>
+                        </div>
+                    </form>
                 </div>
 
             </div>
@@ -98,5 +102,4 @@
         nameInput.value = "mamamoxd";
     </script>
 </body>
-
 </html>

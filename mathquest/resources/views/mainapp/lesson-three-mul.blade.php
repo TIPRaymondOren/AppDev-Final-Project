@@ -27,7 +27,6 @@
 
 <body class="font-sans antialiased">
     <div class="main-container">
-        <div class="title">Math Quest</div>
         <div class="content-container">
             <div class="nav-container">
                 <div class="nav-title">

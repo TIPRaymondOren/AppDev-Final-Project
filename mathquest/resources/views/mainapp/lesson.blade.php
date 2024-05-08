@@ -43,6 +43,7 @@
                         <li class="list mul-list">(3) Lesson Tiers</li>
                         <li class="list mul-list">(3) Quiz Difficulty Tiers</li>
                     </ul>
+                    <center> </center>
                     <a href="{{ url('/lesson-one-mul') }}" class="lesson-select-btn" style="font-size: 2em; margin-top: 2vh;">Start Multiplying Now!</a>
                 </div>
             </div>
