@@ -115,7 +115,7 @@
                                 <input type="radio" id="q5_c" name="item-five" value="c">
                                 <label for="q5_c">20</label>
                                 <input type="radio" id="q5_d" name="item-five" value="d">
-                                <label for="q5_d"></label>
+                                <label for="q5_d">69</label>
                             </div>
                             <input type="text" id="name" name="name" hidden="true" value="ElChapo">
                             <input type="text" id="difficulty" name="difficulty" hidden="true" value="easy">
