@@ -116,7 +116,7 @@
                                 <label for="q5_d">4</label>
                             </div>
                             <input type="text" id="name" name="name" hidden="true" value="ElChapo">
-                        <input type="text" id="difficulty" name="difficulty" hidden="true" value="difficult">
+                        <input type="text" id="difficulty" name="difficulty" hidden="true" value="easy">
                         <button class="btn btn-lg btn-success" type="submit">Submit Answer</button>
                         @csrf
                         </form>

@@ -56,8 +56,9 @@
                 </div>
                 <div class="quiz-content">
                     
-                <form action="/submitScore" method="POST">
-                <label for="item-one" class=" fs-2">1. 6 ÷ 2 = __ </label>
+                <form action="/computeScore" method="POST">
+                @csrf
+                    <label for="item-one" class=" fs-2">1. 6 ÷ 2 = __ </label>
                         <input type="number" id="item-one" name="item-one" required >
                         <br>
                         <label for="item-two" class=" fs-2">2. 48 ÷ __ = 6 </label>
@@ -71,6 +72,12 @@
                         <br>
                         <label for="item-five" class=" fs-2 ">5.Laura counted her crayons and found out she has 80 crayons which she will place in crayon boxes. Every crayon box can contain 8 crayons. How many crayon boxes does she need to put all 80 crayons in boxes?</label>
                         <input type="number" id="item-five" name="item-five" required >
+
+                        <input type="text" id="name" name="name" hidden="true" value="Tempname">
+                        <input type="text" id="difficulty" name="difficulty" hidden="true" value="difficult">
+                        <button class="btn btn-lg btn-success" type="submit">Submit Answer</button>
+                        @csrf
+                </form>
                 </div>
               
                 </div>
@@ -83,9 +90,12 @@
         </div>
     </div>
     </div>
-    <div class="diff-submit-btn-container" >
-               <button type="submit" class="btn btn-lg btn-success">Submit Quiz</button> 
-               </div>
+        <script>
+            var nameInput = document.getElementById("name");
+            var nameStored = localStorage.getItem("name");
+            nameInput.value = nameStored;
+            nameInput.value = "mamamoxd";
+        </script>
 </body>
 
 </html>
