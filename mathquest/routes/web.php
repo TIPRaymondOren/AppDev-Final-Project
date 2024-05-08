@@ -59,7 +59,7 @@ Route::get('/easy-quiz-mul', function () {
     return view('mainapp/easy-quiz-mul');
 });
 Route::get('/easy-quiz-div', function () {
-    return view('mainapp/easy-quiz-mul');
+    return view('mainapp/easy-quiz-div');
 });
 Route::get('/average-quiz-mul', function () {
     return view('mainapp/average-quiz-mul');
@@ -74,7 +74,7 @@ Route::get('/difficult-quiz-mul', function () {
 });
 
 Route::get('/difficult-quiz-div', function () {
-    return view('mainapp/difficult-quiz-mul');
+    return view('mainapp/difficult-quiz-div');
 });
 
 Route::post('/submitScore', [leaderboardController::class, 'submitScore'])->name('submit_score');
