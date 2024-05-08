@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.next-btn {
+    padding: 2%;
+    background-color: rgb(72, 99, 99);
+    border-radius: 1000px;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('/images/cabinbg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.icon {
+    height: 60px;
+}
+
+.desc-cont {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 0 9vw;
+    height: inherit;
+    width: 80%;
+    border-radius: 20px;
+    padding: 4%;
+    height: 100%;
+
+    background: rgba(0, 0, 0, 0.45);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(2.5px);
+    -webkit-backdrop-filter: blur(2.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.content-container {
+    margin: 5vh 0 0 0;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    width: 100vw;
+}
+
+.main-container {
+    width: inherit;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.title {
+    margin-top: 2%;
+    font-size: 4em;
+}
+
+.subject-cont {
+    font-size: 2em;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+    background-color: white;
+    border-radius: 0 20px 20px 0;
+    padding: 6%;
+    color: black;
+}
+
+.lessons {
+    margin-top: 5%;
+}
+
+.lesson-desc {
+    font-size: 2em;
+}
+
+.next-btn-img {
+    height: 20px;
+}
+
+.lesson-content {
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+}
+
+.lesson-container {
+    margin-top: 2em;
+}
+
+.title-cont {
+    height: 20%;
+}
+
+.next-btn-container {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+iframe {
+    margin-bottom: 3%;
+}
+
+.text-btn {
+    margin-right: 2%;
+}
+
+input[type=text] {
+    color: black;
+}
+
+.choices {
+    width: 50%;
+    margin-left: 40px;
+}
+
+.choice-proper {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: x-large;
+}
