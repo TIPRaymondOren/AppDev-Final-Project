@@ -1,0 +1,187 @@
+/* styles.css */
+
+body {
+    font-family: 'figtree', sans-serif;
+    background-image: url('../images/junglebg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+.img-leaderboards{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.leaderboard {
+    background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 9px );
+    -webkit-backdrop-filter: blur( 9px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgba(216, 164, 8, 0.966); /* Semi-transparent white background */
+    backdrop-filter: blur(10px); /* Apply background blur */
+    border-radius: 10px; /* Add border radius for a rounded look */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); /* Semi-transparent border */
+}
+
+
+/* th {
+    background-color: #f4f4f4;
+    font-weight: normal;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+} */
+
+.buttons {
+    margin-top: 20px;
+    display: flex; /* Add display: flex; to enable flexbox */
+    justify-content: flex-end;
+}
+
+
+.buttons button {
+    display: flex;
+    align-items: right;
+    justify-content: center;
+    position: relative;
+    margin-top: 20px auto;
+    margin-left: 10px;
+    width: 200px;
+    background: white;
+    color: black;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    transition: 1s box-shadow;
+  }
+  
+  button:hover {
+    box-shadow: 0 5px 35px 0px rgba(0,0,0,.1);
+    background-color: antiquewhite;
+  }
+
+  .btn:hover{
+    background-color: #f9f9f9;
+  }
+  
+  button:hover::before, button:hover::after {
+    display: block;
+    content: '';
+    position: absolute;
+    width: 200px;
+    height: 45px;
+    background: #ffee00;
+    border-radius: 7px;
+    z-index: -1;
+    animation: 1s clockwise infinite;
+  }
+  
+  button:hover:after {
+    background: #ffbf00;
+    animation: 1s counterclockwise infinite;
+  }
+  
+  @keyframes clockwise {
+    0% {
+      top: -5px;
+      left: 0;
+    }
+    12% {
+      top: -2px;
+      left: 2px;
+    }
+    25% {
+      top: 0;
+      left: 5px;    
+    }
+    37% {
+      top: 2px;
+      left: 2px;
+    }
+    50% {
+      top: 5px;
+      left: 0;    
+    }
+    62% {
+      top: 2px;
+      left: -2px;
+    }
+    75% {
+      top: 0;
+      left: -5px;
+    }
+    87% {
+      top: -2px;
+      left: -2px;
+    }
+    100% {
+      top: -5px;
+      left: 0;    
+    }
+  }
+  
+  @keyframes counterclockwise {
+    0% {
+      top: -5px;
+      right: 0;
+    }
+    12% {
+      top: -2px;
+      right: 2px;
+    }
+    25% {
+      top: 0;
+      right: 5px;    
+    }
+    37% {
+      top: 2px;
+      right: 2px;
+    }
+    50% {
+      top: 5px;
+      right: 0;    
+    }
+    62% {
+      top: 2px;
+      right: -2px;
+    }
+    75% {
+      top: 0;
+      right: -5px;
+    }
+    87% {
+      top: -2px;
+      right: -2px;
+    }
+    100% {
+      top: -5px;
+      right: 0;    
+    }
+  }
