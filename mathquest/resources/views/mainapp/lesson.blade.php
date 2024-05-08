@@ -27,11 +27,6 @@
 
 <body class="lesson-select-bg">
     <div class="main-container">
-        <div class="title">
-            <div class="title">
-                <img src="{{ asset('images/mqlogo.png') }}" alt="" srcset="" class="title-image">
-            </div>
-        </div>
         <div class="lesson-select-container">
             <div class="lesson-select-cont learn-container">
                 <div class="title-cont learn-title">
@@ -39,7 +34,8 @@
                         Learn how to
                     </div>
                     <div class="subject-cont">
-                        <img src="{{ asset('images/multiply.png') }}" alt="" srcset="" class="multiply-lesson-image">
+                        <img src="{{ asset('images/multiply.png') }}" alt="" srcset=""
+                            class="multiply-lesson-image">
                     </div>
                 </div>
                 <div class="multiply-desc">
@@ -47,7 +43,7 @@
                         <li class="list mul-list">(3) Lesson Tiers</li>
                         <li class="list mul-list">(3) Quiz Difficulty Tiers</li>
                     </ul>
-                    <a href="{{ url('/lesson-one-mul') }}" class="btn btn-success">Start Multiplying Now!</a>
+                    <a href="{{ url('/lesson-one-mul') }}" class="lesson-select-btn" style="font-size: 2em; margin-top: 2vh;">Start Multiplying Now!</a>
                 </div>
             </div>
             <div class="lesson-select-cont practice-container">
@@ -56,7 +52,8 @@
                         Learn how to
                     </div>
                     <div class="subject-cont">
-                        <img src="{{ asset('images/divide.png') }}" alt="" srcset="" class="divide-lesson-image">
+                        <img src="{{ asset('images/divide.png') }}" alt="" srcset=""
+                            class="divide-lesson-image">
                     </div>
                 </div>
                 <div class="divide-desc">
@@ -64,7 +61,8 @@
                         <li class="list div-list">(3) Lesson Tiers</li>
                         <li class="list div-list">(3) Quiz Difficulty Tiers</li>
                     </ul>
-                    <a href="{{ url('/lesson-one-div') }}" class="btn btn-success">Start Dividing Now!</a>
+                    <a href="{{ url('/lesson-one-div') }}" class="lesson-select-btn" style="font-size: 2em; margin-top: 2vh;">Start Dividing
+                        Now!</a>
                 </div>
             </div>
         </div>

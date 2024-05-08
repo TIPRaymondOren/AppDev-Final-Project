@@ -14,14 +14,14 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/tailwind.css') }}" rel="stylesheet" type="text/css">
-    <link href="{{ asset('css/lesson.css')}}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('css/lesson.css') }}" rel="stylesheet" type="text/css">
 
     <!-- Bootstrap CDNs -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
 
 </head>
 
@@ -37,7 +37,7 @@
                     </p>
                 </div>
                 <div class="lessons">
-                    <div class="lesson-container">
+                    <div class="lesson-container"  style="font-weight: bold;">
                         <div class="lesson-title">Lesson 1</div>
                         <div class="lesson-desc">Introduction</div>
                     </div>
@@ -58,11 +58,15 @@
                     </div>
                 </div>
                 <div class="lesson-content">
-                    <p class="content">Division content here</p>
+                    <p class="content">Dividing is like sharing your stuff fairly! Imagine you have some cookies and
+                        want to give some to your friends. Division helps you figure out how many cookies each person
+                        gets. It's the opposite of multiplication, which is like putting things together. We use
+                        dividing all the time, like when splitting chores with your siblings or figuring out how many
+                        slices of pizza everyone gets at a party.</p>
                     <div class="next-btn-container">
                         <div class="text-btn">Go to next page</div>
-                        <a href="/lesson-two-div" class="next-btn"><img src="{{ asset('images/right-arrow.png') }}" alt=""
-                            srcset="" class="next-btn-img"></a>
+                        <a href="/lesson-two-div" class="next-btn"><img src="{{ asset('images/right-arrow.png') }}"
+                                alt="" srcset="" class="next-btn-img"></a>
                     </div>
                 </div>
             </div>

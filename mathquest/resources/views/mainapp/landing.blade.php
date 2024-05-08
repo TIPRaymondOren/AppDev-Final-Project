@@ -24,6 +24,9 @@
             <div class="title">
                 <img src="{{ asset('images/mqlogo.png') }}" alt="" srcset="" class="title-image">
             </div>
+            <div class="name-input">
+                <input type="text" name="name" id="name" placeholder="Enter your name here" class="text-input">
+            </div>
             <div class="btn" id="start-btn">
                 <a href="{{ url('/lesson') }}" class="start-quest">Start your quest now</a>
             </div>

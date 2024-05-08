@@ -45,7 +45,7 @@
                         <div class="lesson-title">Lesson 2</div>
                         <div class="lesson-desc">Continuation</div>
                     </div>
-                    <div class="lesson-container">
+                    <div class="lesson-container"  style="font-weight: bold;">
                         <div class="lesson-title">Lesson 3</div>
                         <div class="lesson-desc">Video Presentation</div>
                     </div>
@@ -65,7 +65,7 @@
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     <div class="next-btn-container">
                         <div class="text-btn">Go to next page</div>
-                        <a href="#" class="next-btn"><img src="{{ asset('images/right-arrow.png') }}"
+                        <a href="{{ url('/category') }}" class="next-btn"><img src="{{ asset('images/right-arrow.png') }}"
                                 alt="" srcset="" class="next-btn-img"></a>
                     </div>
                 </div>

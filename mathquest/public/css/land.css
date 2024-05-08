@@ -16,10 +16,26 @@ body {
 .land-bg {
     background-image: url("../images/mainbg.png");
     background-size: cover;
+    background-position: center;
 }
 
 .icon {
     height: 60px;
+}
+
+.text-input {
+    padding: 1% 2%;
+    border-radius: 1000px;
+    box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.77);
+    -webkit-box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.77);
+    -moz-box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.77);
+    font-family: cursive;
+}
+
+.name-input {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .desc-cont {
@@ -31,11 +47,11 @@ body {
     margin: 0 1vw;
     height: 40vh;
     border-radius: 20px;
-    padding: 4%
+    padding: 4%;
 }
 
 .description {
-    margin: 5vh 0 0 0 ;
+    margin: 5vh 0 0 0;
 }
 
 .main-container {
@@ -76,4 +92,3 @@ body {
     border-color: #000000;
     border-width: 3px;
 }
-
