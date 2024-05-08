@@ -5,10 +5,10 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class leaderboard extends Model
+class UserRecord extends Model
 {
     use HasFactory;
-    protected $table = 'leaderboards';
+    protected $table = 'user_records';
 
-    protected $fillable = ['name', 'score', 'difficulty'];
-};
+    protected $fillable = ['name', 'age', 'score'];
+}
