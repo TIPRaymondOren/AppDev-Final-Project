@@ -57,7 +57,7 @@
                     </div>
                 <div class="quiz-content">
 
-                    <form action="/computeScore" method="POST">
+                    <form action="/computeScoreDiffMul" method="POST">
                         @csrf
                         <label for="item-one" class=" fs-2">1. 4 x 7 = __ </label>
                         <input type="number" id="item-one" name="item-one" required>
@@ -68,7 +68,7 @@
                         <label for="item-three" class=" fs-2">3. __ x 100 = 2,400</label>
                         <input type="number" id="item-three" name="item-three" required>
                         <br>
-                        <label for="item-four" class=" fs-2">4. 80 ÷ __ = 800 </label>
+                        <label for="item-four" class=" fs-2">4. 80 x __ = 800 </label>
                         <input type="number" id="item-four" name="item-four" required>
                         <br>
                         <label for="item-five" class=" fs-2 ">5. 475 x 6 = __</label>

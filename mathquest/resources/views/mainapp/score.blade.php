@@ -30,7 +30,7 @@
 
     <div class="glass-container">
         <h2 class="text-light">Your Score</h2>
-        <div class="score">tempScore</div>
+        <div class="score" id="score-container">{{ $score }}</div>
     </div>
     <div class="glass-container-desc">
         <h5 class="text-desc">Description</h5>

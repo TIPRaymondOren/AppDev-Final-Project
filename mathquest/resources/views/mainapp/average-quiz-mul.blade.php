@@ -53,7 +53,7 @@
                     <h1>Multiplication Average Quiz</h1>
                 </div>
                 <div class="lesson-content">
-                    <form action="/computeScore" method="POST">
+                    <form action="/computeScoreAveMul" method="POST">
                         @csrf
                         <label for="item-one" class=" fs-2">1. 9 × 6 = </label>
                         <input type="text" id="item-one" name="item-one" minlength="1" maxlength="1">
