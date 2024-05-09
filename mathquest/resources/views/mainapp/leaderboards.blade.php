@@ -46,8 +46,8 @@
             </table>
         </div>
         <div class="buttons">
-            <button type="submit" class="btn btn-light">Quiz Selection</button>
-            <button type="button" class="btn btn-light">Home</button>
+            <a a href="{{ url('/category') }}"><button type="submit" class="btn btn-light">Quiz Selection</button></a>
+            <a a href="{{ url('/land') }}"><button type="button" class="btn btn-light">Home</button></a>
         </div>
     </div>
 </body>
