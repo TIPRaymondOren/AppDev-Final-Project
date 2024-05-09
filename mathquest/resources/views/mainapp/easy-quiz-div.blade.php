@@ -43,7 +43,7 @@
                         <div class="lesson-title"><a href="{{ url('/average-quiz-div') }}">Average</a></div>
                     </div>
                     <div class="lesson-container">
-                        <div class="lesson-title"><a href="{{ url('/difficult-quiz-div') }}">Easy</a></div>
+                        <div class="lesson-title"><a href="{{ url('/difficult-quiz-div') }}">Difficult</a></div>
                     </div>
                 </div>
             </div>
@@ -55,7 +55,7 @@
                 </div>
                 <div class="lesson-content">
                     <div class="easy-multiply">
-                        <form action="/computeScore" method="POST">
+                        <form action="/computeScoreEasyDiv" method="POST">
                             @csrf
                             <div class="question">
                                 <p>1. 6 ÷ 2 = ?</p>
@@ -131,7 +131,7 @@
         var nameInput = document.getElementById("name");
         var nameStored = localStorage.getItem("name");
         nameInput.value = nameStored;
-        nameInput.value = "mamamoxd";
+        // nameInput.value = "mamamoxd";
     </script>
 </body>
 

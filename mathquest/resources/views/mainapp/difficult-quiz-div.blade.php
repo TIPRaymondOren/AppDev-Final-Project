@@ -57,7 +57,7 @@
                 </div>
                 <div class="quiz-content">
 
-                    <form action="/computeScore" method="POST">
+                    <form action="/computeScoreDiffDiv" method="POST">
                         @csrf
                         <label for="item-one" class=" fs-2">1. 6 ÷ 2 = __ </label>
                         <input type="number" id="item-one" name="item-one" required>
@@ -97,7 +97,7 @@
         var nameInput = document.getElementById("name");
         var nameStored = localStorage.getItem("name");
         nameInput.value = nameStored;
-        nameInput.value = "mamamoxd";
+        // nameInput.value = "mamamoxd";
     </script>
 </body>
 

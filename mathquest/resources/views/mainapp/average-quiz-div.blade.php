@@ -51,10 +51,10 @@
             </div>
             <div class="quiz-container">
                 <div class="title-cont practice-title">
-                    <h1>Multiplication Average Quiz</h1>
+                    <h1>Division Average Quiz</h1>
                 </div>
                 <div class="lesson-content">
-                    <form action="/computeScore" method="POST">
+                    <form action="/computeScoreAveDiv" method="POST">
                         @csrf
                         <label for="item-one" class=" fs-2">1. 24 ÷ 3 = </label>
                         <input type="text" id="item-one" name="item-one" minlength="1" maxlength="1" required>
@@ -80,22 +80,22 @@
                         <p>Choose the correct letter of the answer from the choices below.</p>
                         <h2>Choices:</h2>
                         <div class="flex-row">
-                            <p class="choice-proper">A. 15</p>
-                            <p class="choice-proper">B. 12</p>
-                            <p class="choice-proper">C. 9</p>
-                            <p class="choice-proper">D. 6</p>
-                            <p class="choice-proper">E. 7</p>
-                            <p class="choice-proper">F. 8</p>
-                            <p class="choice-proper">G. 10</p>
-                            <p class="choice-proper">H. 6</p>
-                            <p class="choice-proper">I. 21</p>
-                            <p class="choice-proper">J. 66</p>
-                            <p class="choice-proper">K. 38</p>
-                            <p class="choice-proper">L. 6</p>
-                            <p class="choice-proper">M. 111</p>
-                            <p class="choice-proper">N. 64</p>
-                            <p class="choice-proper">O. 95</p>
-                            <p class="choice-proper">P. 5</p>
+                            <p class="choice-proper">A. 15 |</p>
+                            <p class="choice-proper">B. 12 |</p>
+                            <p class="choice-proper">C. 9 |</p>
+                            <p class="choice-proper">D. 6 |</p>
+                            <p class="choice-proper">E. 7 |</p>
+                            <p class="choice-proper">F. 8 |</p>
+                            <p class="choice-proper">G. 10 |</p>
+                            <p class="choice-proper">H. 16 |</p>
+                            <p class="choice-proper">I. 21 |</p>
+                            <p class="choice-proper">J. 66 |</p>
+                            <p class="choice-proper">K. 38 |</p>
+                            <p class="choice-proper">L. 6 |</p>
+                            <p class="choice-proper">M. 111 |</p>
+                            <p class="choice-proper">N. 64 |</p>
+                            <p class="choice-proper">O. 95 |</p>
+                            <p class="choice-proper">P. 5 |</p>
                         </div>
                     </div>
                 </div>
@@ -106,7 +106,7 @@
             var nameInput = document.getElementById("name");
             var nameStored = localStorage.getItem("name");
             nameInput.value = nameStored;
-            nameInput.value = "mamamoxd";
+            // nameInput.value = "mamamoxd";
         </script>
 </body>
 
