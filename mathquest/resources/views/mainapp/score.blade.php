@@ -33,8 +33,8 @@
         <div class="score" id="score-container">{{ $score }}</div>
     </div>
     <div class="glass-container-desc">
-        <h5 class="text-desc">Description</h5>
-        <div class="score-desc">You did it! You truly are a Master of Multiplication. You can check out the Division Part to see of you’re a Division Master as well!</div>
+        <h5 class="text-desc">Congratulations!</h5>
+        <div class="score-desc">Good job on finishing your quest in learning Multiplication and Division! Have you tried the other quizzes to test your skills? If not, go ahead and try them out as well!</div>
     </div>
 
     <div class="buttons">
